@@ -1,0 +1,23 @@
+// These are basic styles used throughout the site
+
+// BOX-SIZING FIX
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+// BASIC LINK STYLES
+
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  @include on-event {
+    color: $text-color;
+    text-decoration: underline;
+  }
+}
