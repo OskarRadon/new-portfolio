@@ -389,9 +389,11 @@ a {
   color: #FF4747; }
   .outer h1 {
     font-weight: 700;
-    font-size: 80px;
     transform: rotate(-90deg);
     margin: 0px; }
+    @media (min-width: 700px) {
+      .outer h1 {
+        font-size: 80px; } }
     .outer h1.logo-left {
       float: left;
       margin-top: 200px; }

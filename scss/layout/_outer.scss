@@ -3,9 +3,11 @@
   h1 {
     @extend .montserrat;
     font-weight: 700;
-    font-size: 80px;
     transform: rotate(-90deg);
     margin: 0px;
+    @media #{$desktop} {
+      font-size: 80px;
+    }
     &.logo-left {
       float: left;
       margin-top: 200px;
