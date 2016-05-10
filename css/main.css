@@ -376,10 +376,10 @@ a {
   a:hover, a:active, a:focus {
     color: #7AD1D1; }
 
-.montserrat, .outer h1, .outer h2.location {
+.montserrat, .outer h1, .outer .info h2.location {
   font-family: 'Montserrat', 'Helvetica Neue', sans-serif; }
 
-.georgia, .outer h2.career {
+.georgia, .outer .info h2.career {
   font-family: 'Georgia', serif; }
 
 .open-sans {
@@ -390,13 +390,29 @@ a {
   .outer h1 {
     font-weight: 700;
     font-size: 80px;
+    transform: rotate(-90deg);
+    margin: 0px; }
+    .outer h1.logo-left {
+      float: left;
+      margin-top: 200px; }
+    .outer h1.logo-right {
+      float: right;
+      margin-top: 800px; }
+  .outer .info {
+    position: absolute;
+    right: 40px;
+    top: 40px; }
+    .outer .info h2 {
+      margin: 0px; }
+      .outer .info h2.location {
+        font-size: 36px; }
+      .outer .info h2.career {
+        font-weight: normal;
+        font-style: italic;
+        font-size: 24px; }
+  .outer .contact {
     position: fixed;
-    transform: rotate(-90deg); }
-  .outer h2.location {
-    font-size: 36px; }
-  .outer h2.career {
-    font-weight: normal;
-    font-style: italic;
-    font-size: 24px; }
+    bottom: 40px;
+    left: 40px; }
 
 /*# sourceMappingURL=main.css.map */
