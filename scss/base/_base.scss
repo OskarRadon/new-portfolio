@@ -13,11 +13,10 @@ html {
 // BASIC LINK STYLES
 
 a {
-  color: $brand-color;
+  color: $color-red;
   text-decoration: none;
 
-  @include on-event {
-    color: $text-color;
-    text-decoration: underline;
+  @include attention() {
+    color: $color-blue;
   }
 }
