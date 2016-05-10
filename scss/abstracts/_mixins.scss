@@ -1,0 +1,13 @@
+// All mixins used site-wide
+
+
+// EVENT WRAPPER
+// @author Harry Roberts
+
+@mixin attention() {
+  &:hover,
+  &:active,
+  &:focus {
+    @content;
+  }
+}
