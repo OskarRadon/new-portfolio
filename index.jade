@@ -6,7 +6,21 @@ html
     title Oskar Radon
     meta(charset="utf-8")
     meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", href="css/app.css")
   body
-    header
-    div.container
-    footer
+    .outer
+      h1.logo-left OSKAR
+      h1.logo-right RADON
+      .info
+        h2.location PORTLAND, OR
+        h2.career Web designer & developer
+      img.contact(src="img/hey.jpg")
+    .container
+      // The second class is the project name (maybe not necessary)
+      .post.mentor
+        img.thumb
+        h2.project-name
+      .post.tumblr
+        img.thumb
+        h2.project-name
+    
