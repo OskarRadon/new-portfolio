@@ -1,0 +1,26 @@
+.outer {
+  color: $color-red;
+  h1 {
+    @extend .montserrat;
+    font-weight: 700;
+    font-size: 80px;
+    position: fixed;
+    transform: rotate(-90deg);
+    &.logo-left {
+    }
+    &.logo-right {
+    }
+  }
+  h2 {
+    &.location {
+      @extend .montserrat;
+      font-size: 36px;
+    }
+    &.career {
+      @extend .georgia;
+      font-weight: normal;
+      font-style: italic;
+      font-size: 24px;
+    }
+  }
+}
