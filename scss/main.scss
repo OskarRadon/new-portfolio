@@ -29,20 +29,18 @@
 
 // Generate background images for posts
 
-@mixin generateProjects ($list) {
-  @each $item in $list {
-
-  }
-}
-
 $project-list : ("orchard", "left"),
                 ("aax", "center"),
                 ("cos", "center");
 
-
-.post {
-  @include generateProjects($project-list);
+@each $project, $position in $project-list {
+  .#{$project} {
+    background: url(../img/#{$project}/main-sm.jpg) #{$position};
+  }
 }
+
+
+
 
 // .orchard {
 //   background: url(../img/orchard/main-sm.png);
