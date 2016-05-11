@@ -444,4 +444,13 @@ a {
     .container .post .project-name {
       display: none; }
 
+.orchard {
+  background: url(../img/orchard/main-sm.jpg) left; }
+
+.aax {
+  background: url(../img/aax/main-sm.jpg) center; }
+
+.cos {
+  background: url(../img/cos/main-sm.jpg) center; }
+
 /*# sourceMappingURL=main.css.map */
