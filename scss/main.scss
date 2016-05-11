@@ -29,17 +29,32 @@
 
 // Generate background images for posts
 
-.orchard {
-  background: url(../img/orchard/main-sm.png);
-  background-position: left;
+@mixin generateProjects ($list) {
+  @each $item in $list {
+
+  }
 }
 
-.aax {
-  background: url(../img/aax/aax-sm.png);
-  background-position: center;
+$project-list : ("orchard", "left"),
+                ("aax", "center"),
+                ("cos", "center");
+
+
+.post {
+  @include generateProjects($project-list);
 }
 
-.cos {
-  background: url(../img/sketchbook/cos-sm.jpg);
-  background-position: center;
-}
+// .orchard {
+//   background: url(../img/orchard/main-sm.png);
+//   background-position: left;
+// }
+//
+// .aax {
+//   background: url(../img/aax/aax-sm.png);
+//   background-position: center;
+// }
+//
+// .cos {
+//   background: url(../img/sketchbook/cos-sm.jpg);
+//   background-position: center;
+// }
