@@ -390,31 +390,39 @@ a {
   .outer h1 {
     font-weight: 700;
     transform: rotate(-90deg);
-    margin: 0px; }
+    margin: 0px;
+    position: fixed; }
     @media (min-width: 700px) {
       .outer h1 {
         font-size: 80px; } }
     .outer h1.logo-left {
-      float: left;
-      margin-top: 200px; }
+      left: -20px;
+      top: 70px; }
     .outer h1.logo-right {
-      float: right;
-      margin-top: 800px; }
+      right: -20px;
+      bottom: 70px; }
   .outer .info {
-    position: absolute;
-    right: 40px;
-    top: 40px; }
+    position: fixed;
+    right: 30px;
+    top: 30px; }
     .outer .info h2 {
       margin: 0px; }
       .outer .info h2.location {
-        font-size: 36px; }
+        font-size: 18px; }
+        @media (min-width: 700px) {
+          .outer .info h2.location {
+            font-size: 36px; } }
       .outer .info h2.career {
         font-weight: normal;
         font-style: italic;
-        font-size: 24px; }
+        font-size: 12px; }
+        @media (min-width: 700px) {
+          .outer .info h2.career {
+            font-size: 24px; } }
   .outer .contact {
+    width: 60px;
     position: fixed;
-    bottom: 40px;
-    left: 40px; }
+    bottom: 20px;
+    left: 20px; }
 
 /*# sourceMappingURL=project.css.map */
