@@ -458,6 +458,10 @@ a {
         width: 240px;
         height: 240px;
         margin-bottom: 80px; } }
+    @media (min-width: 700px) {
+      .container .post {
+        width: 400px;
+        height: 227px; } }
     @media (min-width: 950px) {
       .container .post {
         width: 600px;
