@@ -472,8 +472,19 @@ a {
     .container .post h2 {
       color: #5AD95A;
       position: absolute;
+      display: none;
       font-size: 60px;
-      margin: 0px; }
+      margin: 0px;
+      margin-top: -15px; }
+    .container .post .two {
+      color: #FFEF4F;
+      margin-top: 28px; }
+    .container .post .three {
+      color: #5AD95A;
+      margin-top: 71px; }
+    .container .post .four {
+      color: #FFEF4F;
+      margin-top: 114px; }
 
 .orchard {
   background: url(../img/orchard/main-sm.jpg) left; }
@@ -492,26 +503,5 @@ a {
 
 .mosk {
   background: url(../img/mosk/main-sm.jpg) 65%; }
-
-.t1 {
-  margin-top: 10px; }
-
-.t2 {
-  margin-top: 20px; }
-
-.t3 {
-  margin-top: 30px; }
-
-.t4 {
-  margin-top: 40px; }
-
-.t5 {
-  margin-top: 50px; }
-
-.t6 {
-  margin-top: 60px; }
-
-.t7 {
-  margin-top: 70px; }
 
 /*# sourceMappingURL=main.css.map */
