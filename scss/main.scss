@@ -31,13 +31,26 @@
       display: block;
     }
     h2 {
-    display: none;
-      &.title1 {
-        color: $color-green
-      }
-      &.title2 {
-        color: $color-yellow;
-      }
+      @extend .montserrat;
+      display: none;
+      color: $color-green;
+      font-size: 60px;
+      margin: 0px;
+      margin-top: -14px;
+      margin-left: -4px;
+    }
+    .two {
+      color: $color-yellow;
+      margin-top: -30px;
+    }
+    .s1 {
+      line-height: 86px;
+      margin-top: -21px;
+    }
+    .s2 {
+      @extend .s1;
+      color: $color-yellow;
+      margin-top: -129px;
     }
   }
 }
