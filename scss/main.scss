@@ -31,13 +31,13 @@
       display: block;
     }
     h2 {
-    display: none;
-      &.title1 {
-        color: $color-green
-      }
-      &.title2 {
-        color: $color-yellow;
-      }
+      display: none;
+      color: $color-green;
+      font-size: 60px;
+      margin: 0px;
+    }
+    .two {
+      color: $color-yellow;
     }
   }
 }

@@ -469,11 +469,12 @@ a {
     .container .post:hover h2 {
       display: block; }
     .container .post h2 {
-      display: none; }
-      .container .post h2.title1 {
-        color: #5AD95A; }
-      .container .post h2.title2 {
-        color: #FFEF4F; }
+      display: none;
+      color: #5AD95A;
+      font-size: 60px;
+      margin: 0px; }
+    .container .post .two {
+      color: #FFEF4F; }
 
 .orchard {
   background: url(../img/orchard/main-sm.jpg) left; }
