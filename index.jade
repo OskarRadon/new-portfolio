@@ -13,22 +13,26 @@ html
     include ./jade/_outer.jade
     .container
       // The second class is the project name (maybe not necessary)
+      img.pika(src="img/pika.gif")
       a(href="#")
-        .post.sarah
+        .post#sarah
           +generateTitles("SARAH MEADOWS")
       a(href="#")
-        .post.cos
+        .post#scoop
+          +generateTitles("SCOOP APP")
+      a(href="#")
+        .post#cos
           +generateTitles("COS")
       a(href="#")
-        .post.mosk
+        .post#mosk
           +generateTitles("MOSK")
       a(href="#")
-        .post.future
+        .post#future
           +generateTitles("FUTURE LOGOS")
       a(href="#")
-        .post.orchard
+        .post#orchard
           +generateTitles("ORCHARD47")
       a(href="#")
-        .post.aax
+        .post#aax
           +generateTitles("ALBUM ART EXCHANGE")
           
