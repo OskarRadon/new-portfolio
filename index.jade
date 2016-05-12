@@ -1,12 +1,9 @@
 //output:index.html
 mixin generateTitles(title) 
-  h2.t1 #{title}
-  h2.t2 #{title}
-  h2.t3 #{title}
-  h2.t4 #{title}
-  h2.t5 #{title}
-  h2.t6 #{title}
-  h2.t7 #{title}
+  h2 #{title}
+  h2.two #{title}
+  h2.three #{title}
+  h2.four #{title}
 
 
 doctype html
@@ -15,6 +12,7 @@ html
   body
     include ./jade/_outer.jade
     .container
+      // The second class is the project name (maybe not necessary)
       a(href="#")
         .post.sarah
           +generateTitles("SARAH MEADOWS")
