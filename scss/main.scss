@@ -11,7 +11,8 @@
   .post {
     width: 180px;
     height: 180px;
-    margin-bottom: 40px;
+    // margin-bottom: 40px;
+    margin-top: -10px;
     // background: peachpuff;
     background-size: cover;
     @media #{$phone-lg} {
@@ -35,26 +36,26 @@
     h2 {
       @extend .montserrat;
       display: none;
-      color: $color-green;
-      font-size: 60px;
+      // color: $color-green;
+      // font-size: 60px;
       margin: 0px;
-      margin-top: -14px;
-      margin-left: -4px;
+      // margin-top: -14px;
+      // margin-left: -4px;
     }
-    .two {
-      color: $color-yellow;
-      margin-top: -30px;
-    }
-    // special styling for two-line project titles
-    .s1 {
-      line-height: 86px;
-      margin-top: -21px;
-    }
-    .s2 {
-      @extend .s1;
-      color: $color-yellow;
-      margin-top: -129px;
-    }
+    // .two {
+    //   color: $color-yellow;
+    //   margin-top: -30px;
+    // }
+    // // special styling for two-line project titles
+    // .s1 {
+    //   line-height: 86px;
+    //   margin-top: -21px;
+    // }
+    // .s2 {
+    //   @extend .s1;
+    //   color: $color-yellow;
+    //   margin-top: -129px;
+    // }
   }
 }
 
