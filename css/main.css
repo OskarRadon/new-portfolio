@@ -466,8 +466,9 @@ a {
       .container .post {
         width: 600px;
         height: 427px; } }
-    .container .post:hover h2 {
-      display: block; }
+    @media (min-width: 950px) {
+      .container .post:hover h2 {
+        display: block; } }
     .container .post h2 {
       display: none;
       color: #5AD95A;
