@@ -478,6 +478,12 @@ a {
     .container .post .two {
       color: #FFEF4F;
       margin-top: -30px; }
+    .container .post .s1, .container .post .s2 {
+      line-height: 86px;
+      margin-top: -21px; }
+    .container .post .s2 {
+      color: #FFEF4F;
+      margin-top: -129px; }
 
 .orchard {
   background: url(../img/orchard/main-sm.jpg) left; }

@@ -43,6 +43,15 @@
       color: $color-yellow;
       margin-top: -30px;
     }
+    .s1 {
+      line-height: 86px;
+      margin-top: -21px;
+    }
+    .s2 {
+      @extend .s1;
+      color: $color-yellow;
+      margin-top: -129px;
+    }
   }
 }
 
