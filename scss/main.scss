@@ -37,7 +37,10 @@
 
 $project-list : ("orchard", "left"),
                 ("aax", "center"),
-                ("cos", "center");
+                ("cos", "center"),
+                ("sarah", "center"),
+                ("future", "center"),
+                ("mosk", "65%");
 
 @each $project, $position in $project-list {
   .#{$project} {
