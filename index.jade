@@ -2,21 +2,9 @@
 
 doctype html
 html
-  head
-    title Oskar Radon
-    meta(charset="utf-8")
-    meta(name="viewport", content="width=device-width, initial-scale=1")
-    link(rel="stylesheet", href="css/main.css")
-    // Hey be sure to remove all the font weights you don't use in the design!
-    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700,700italic,600italic|Montserrat:700" type="text/css")
+  include ./jade/_head.jade
   body
-    .outer
-      h1.logo-left OSKAR
-      h1.logo-right RADON
-      .info
-        h2.location PORTLAND, OR
-        h2.career Web designer & developer
-      img.contact(src="img/hey.png")
+    include ./jade/_outer.jade
     .container
       // The second class is the project name (maybe not necessary)
       .post.orchard
