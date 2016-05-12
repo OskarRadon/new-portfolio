@@ -1,4 +1,13 @@
 //output:index.html
+mixin generateTitles(title) 
+  h2.t1 #{title}
+  h2.t2 #{title}
+  h2.t3 #{title}
+  h2.t4 #{title}
+  h2.t5 #{title}
+  h2.t6 #{title}
+  h2.t7 #{title}
+
 
 doctype html
 html
@@ -6,28 +15,22 @@ html
   body
     include ./jade/_outer.jade
     .container
-      // The second class is the project name (maybe not necessary)
       a(href="#")
         .post.sarah
-          h2 SARAH MEADOWS
-          h2.two SARAH MEADOWS
+          +generateTitles("SARAH MEADOWS")
       a(href="#")
         .post.cos
-          h2 COS
-          h2.two COS
+          +generateTitles("COS")
       a(href="#")
         .post.mosk
-          h2 MOSK
-          h2.two MOSK
+          +generateTitles("MOSK")
       a(href="#")
         .post.future
-          h2 FUTURE LOGOS
-          h2.two FUTURE LOGOS
+          +generateTitles("FUTURE LOGOS")
       a(href="#")
         .post.orchard
-          h2 ORCHARD47
-          h2.two ORCHARD47
+          +generateTitles("ORCHARD47")
       a(href="#")
         .post.aax
-          h2.s1 ALBUM ART EXCHANGE
-          h2.s2 ALBUM ART EXCHANGE
+          +generateTitles("ALBUM ART EXCHANGE")
+          
