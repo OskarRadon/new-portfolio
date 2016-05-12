@@ -8,6 +8,8 @@
   height: 100%;
   // background: tomato;
   margin: 140px 0 0;
+  a {
+  }
   .post {
     width: 180px;
     height: 180px;
@@ -28,6 +30,9 @@
       width: 600px;
       height: 427px;
     }
+    &:hover {
+      padding-top: -10px;
+    }
     &:hover h2 {
       @media #{$desktop} {
         display: block;
@@ -35,11 +40,13 @@
     }
     h2 {
       @extend .montserrat;
-      display: none;
-      // color: $color-green;
-      // font-size: 60px;
+      color: $color-green;
+      position: absolute;
+      // display: none;
+      font-size: 60px;
       margin: 0px;
-      // margin-top: -14px;
+      // padding-top: 10px;
+      // margin-top: -18px;
       // margin-left: -4px;
     }
     // .two {
@@ -71,5 +78,14 @@ $project-list : ("orchard", "left"),
 @each $project, $position in $project-list {
   .#{$project} {
     background: url(../img/#{$project}/main-sm.jpg) #{$position};
+  }
+}
+
+// Position each title
+
+@for $i from 1 through 7 {
+  $margin : #{$i}0px;
+  .t#{$i} {
+    margin-top: $margin;
   }
 }

@@ -464,11 +464,15 @@ a {
       .container .post {
         width: 600px;
         height: 427px; } }
+    .container .post:hover {
+      padding-top: -10px; }
     @media (min-width: 950px) {
       .container .post:hover h2 {
         display: block; } }
     .container .post h2 {
-      display: none;
+      color: #5AD95A;
+      position: absolute;
+      font-size: 60px;
       margin: 0px; }
 
 .orchard {
@@ -488,5 +492,26 @@ a {
 
 .mosk {
   background: url(../img/mosk/main-sm.jpg) 65%; }
+
+.t1 {
+  margin-top: 10px; }
+
+.t2 {
+  margin-top: 20px; }
+
+.t3 {
+  margin-top: 30px; }
+
+.t4 {
+  margin-top: 40px; }
+
+.t5 {
+  margin-top: 50px; }
+
+.t6 {
+  margin-top: 60px; }
+
+.t7 {
+  margin-top: 70px; }
 
 /*# sourceMappingURL=main.css.map */
