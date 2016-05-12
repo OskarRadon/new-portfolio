@@ -398,13 +398,25 @@ a {
     .outer h1.logo-left {
       left: -20px;
       top: 70px; }
+      @media (min-width: 700px) {
+        .outer h1.logo-left {
+          left: -60px;
+          top: 155px; } }
     .outer h1.logo-right {
       right: -20px;
       bottom: 70px; }
+      @media (min-width: 700px) {
+        .outer h1.logo-right {
+          right: -70px;
+          bottom: 155px; } }
   .outer .info {
     position: fixed;
     right: 30px;
     top: 30px; }
+    @media (min-width: 700px) {
+      .outer .info {
+        right: 60px;
+        top: 50px; } }
     .outer .info h2 {
       margin: 0px; }
       .outer .info h2.location {
@@ -424,5 +436,9 @@ a {
     position: fixed;
     bottom: 20px;
     left: 20px; }
+    @media (min-width: 700px) {
+      .outer .contact {
+        left: 56px;
+        bottom: 45px; } }
 
 /*# sourceMappingURL=project.css.map */

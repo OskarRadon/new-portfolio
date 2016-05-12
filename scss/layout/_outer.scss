@@ -12,16 +12,28 @@
     &.logo-left {
       left: -20px;
       top: 70px;
+      @media #{$desktop} {
+        left: -60px;
+        top: 155px;
+      }
     }
     &.logo-right {
       right: -20px;
       bottom: 70px;
+      @media #{$desktop} {
+        right: -70px;
+        bottom: 155px;
+      }
     }
   }
   .info {
     position: fixed;
     right: 30px;
     top: 30px;
+    @media #{$desktop} {
+      right: 60px;
+      top: 50px;
+    }
     h2 {
       margin: 0px;
       &.location {
@@ -47,5 +59,9 @@
     position: fixed;
     bottom: 20px;
     left: 20px;
+    @media #{$desktop} {
+      left: 56px;
+      bottom: 45px;
+    }
   }
 }

@@ -7,16 +7,17 @@
   width: 100%;
   height: 100%;
   // background: tomato;
-  margin: 100px 0 40px;
+  margin: 140px 0 0;
   .post {
     width: 180px;
     height: 180px;
-    margin-top: 40px;
+    margin-bottom: 40px;
     // background: peachpuff;
     background-size: cover;
     @media #{$phone-lg} {
       width: 240px;
       height: 240px;
+      margin-bottom: 80px;
     }
     &:hover h2 {
       display: block;
