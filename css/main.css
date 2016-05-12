@@ -376,7 +376,7 @@ a {
   a:hover, a:active, a:focus {
     color: #7AD1D1; }
 
-.montserrat, .outer h1, .outer .info h2.location {
+.montserrat, .outer h1, .outer .info h2.location, .container .post h2 {
   font-family: 'Montserrat', 'Helvetica Neue', sans-serif; }
 
 .georgia, .outer .info h2.career {
@@ -472,9 +472,12 @@ a {
       display: none;
       color: #5AD95A;
       font-size: 60px;
-      margin: 0px; }
+      margin: 0px;
+      margin-top: -14px;
+      margin-left: -4px; }
     .container .post .two {
-      color: #FFEF4F; }
+      color: #FFEF4F;
+      margin-top: -30px; }
 
 .orchard {
   background: url(../img/orchard/main-sm.jpg) left; }

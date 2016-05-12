@@ -31,13 +31,17 @@
       display: block;
     }
     h2 {
+      @extend .montserrat;
       display: none;
       color: $color-green;
       font-size: 60px;
       margin: 0px;
+      margin-top: -14px;
+      margin-left: -4px;
     }
     .two {
       color: $color-yellow;
+      margin-top: -30px;
     }
   }
 }
