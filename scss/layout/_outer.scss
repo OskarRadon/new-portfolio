@@ -6,13 +6,13 @@
     transform: rotate(-90deg);
     margin: 0px;
     position: fixed;
-    @media #{$desktop} {
+    @media #{$tablet} {
       font-size: 80px;
     }
     &.logo-left {
       left: -20px;
       top: 70px;
-      @media #{$desktop} {
+      @media #{$tablet} {
         left: -60px;
         top: 155px;
       }
@@ -20,7 +20,7 @@
     &.logo-right {
       right: -20px;
       bottom: 70px;
-      @media #{$desktop} {
+      @media #{$tablet} {
         right: -70px;
         bottom: 155px;
       }
@@ -30,7 +30,7 @@
     position: fixed;
     right: 30px;
     top: 30px;
-    @media #{$desktop} {
+    @media #{$tablet} {
       right: 60px;
       top: 50px;
     }
@@ -39,7 +39,7 @@
       &.location {
         @extend .montserrat;
         font-size: 18px;
-        @media #{$desktop} {
+        @media #{$tablet} {
           font-size: 36px;
         }
       }
@@ -48,7 +48,7 @@
         font-weight: normal;
         font-style: italic;
         font-size: 12px;
-        @media #{$desktop} {
+        @media #{$tablet} {
           font-size: 24px;
         }
       }
@@ -59,7 +59,7 @@
     position: fixed;
     bottom: 20px;
     left: 20px;
-    @media #{$desktop} {
+    @media #{$tablet} {
       left: 56px;
       bottom: 45px;
     }

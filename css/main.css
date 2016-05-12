@@ -458,6 +458,10 @@ a {
         width: 240px;
         height: 240px;
         margin-bottom: 80px; } }
+    @media (min-width: 950px) {
+      .container .post {
+        width: 600px;
+        height: 427px; } }
     .container .post:hover h2 {
       display: block; }
     .container .post h2 {
