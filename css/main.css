@@ -373,8 +373,6 @@ html {
 a {
   color: #FF4747;
   text-decoration: none; }
-  a:hover, a:active, a:focus {
-    color: #7AD1D1; }
 
 .montserrat, .outer h1, .outer .info h2.location, .container .post h2 {
   font-family: 'Montserrat', 'Helvetica Neue', sans-serif; }

@@ -15,8 +15,4 @@ html {
 a {
   color: $color-red;
   text-decoration: none;
-
-  @include attention() {
-    color: $color-blue;
-  }
 }
