@@ -441,8 +441,14 @@ a {
       .container .post {
         width: 240px;
         height: 240px; } }
-    .container .post .project-name {
+    .container .post:hover h2 {
+      display: block; }
+    .container .post h2 {
       display: none; }
+      .container .post h2.title1 {
+        color: #5AD95A; }
+      .container .post h2.title2 {
+        color: #FFEF4F; }
 
 .orchard {
   background: url(../img/orchard/main-sm.jpg) left; }

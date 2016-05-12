@@ -18,11 +18,17 @@
       width: 240px;
       height: 240px;
     }
-    .project-name {
-      display: none;
-      // @include attention() {
-      //   display: block;
-      // }
+    &:hover h2 {
+      display: block;
+    }
+    h2 {
+    display: none;
+      &.title1 {
+        color: $color-green
+      }
+      &.title2 {
+        color: $color-yellow;
+      }
     }
   }
 }
@@ -38,21 +44,3 @@ $project-list : ("orchard", "left"),
     background: url(../img/#{$project}/main-sm.jpg) #{$position};
   }
 }
-
-
-
-
-// .orchard {
-//   background: url(../img/orchard/main-sm.png);
-//   background-position: left;
-// }
-//
-// .aax {
-//   background: url(../img/aax/aax-sm.png);
-//   background-position: center;
-// }
-//
-// .cos {
-//   background: url(../img/sketchbook/cos-sm.jpg);
-//   background-position: center;
-// }
