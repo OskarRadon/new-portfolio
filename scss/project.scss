@@ -16,14 +16,15 @@
     margin-top: 100px;
     h2 {
       margin: 0px;
-      color: $color-black;
+      color: $color-green;
       text-align: center;
       &.two {
         margin: -10px 0 20px;
-        color: $color-black;
+        color: $color-yellow;
       }
     }
     .splash {
+      margin-top: 40px;
       width: 200px;
       height: 200px;
     }
@@ -31,6 +32,7 @@
   h4 {
     text-align: center;
     color: $color-black;
+    margin: 40px 0;
   }
   p {
     @extend .open-sans;

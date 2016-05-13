@@ -455,17 +455,19 @@ html {
     margin-top: 100px; }
     .container .hero h2 {
       margin: 0px;
-      color: #292F36;
+      color: #5AD95A;
       text-align: center; }
       .container .hero h2.two {
         margin: -10px 0 20px;
-        color: #292F36; }
+        color: #FFEF4F; }
     .container .hero .splash {
+      margin-top: 40px;
       width: 200px;
       height: 200px; }
   .container h4 {
     text-align: center;
-    color: #292F36; }
+    color: #292F36;
+    margin: 40px 0; }
   .container p {
     margin: 0px;
     width: 200px;
@@ -497,5 +499,15 @@ html {
 
 #shark {
   background-color: #292F36; }
+
+@font-face {
+  font-family: loveMoment;
+  src: url(../fonts/loveMoment.otf); }
+.container p.font-name {
+  margin-bottom: 20px; }
+
+.container p.love-moment {
+  font-family: loveMoment;
+  font-size: 48px; }
 
 /*# sourceMappingURL=project.css.map */
