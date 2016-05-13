@@ -91,3 +91,17 @@ $splash-list : "scoop";
 #shark {
   background-color: #292F36;
 }
+
+@font-face {
+  font-family: loveMoment;
+  src: url(../fonts/loveMoment.otf);
+}
+
+.container p.font-name {
+  margin-bottom: 20px;
+}
+
+.container p.love-moment {
+  font-family: loveMoment;
+  font-size: 48px;
+}
