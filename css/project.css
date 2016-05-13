@@ -441,6 +441,9 @@ html {
         left: 56px;
         bottom: 45px; } }
 
+.outer {
+  color: white; }
+
 .container {
   width: 100vw;
   height: 100vh;

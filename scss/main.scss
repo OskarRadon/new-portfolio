@@ -1,12 +1,8 @@
 @import 'app';
 
-.logo-left {
+.logo-left, .logo-right {
   pointer-events: none;
   cursor: default;
-}
-
-.logo-right {
-  @extend .logo-left;
 }
 
 .container {
