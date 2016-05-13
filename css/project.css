@@ -441,7 +441,7 @@ html {
         left: 56px;
         bottom: 45px; } }
 
-.outer {
+.outer, .outer h1.logo-left, .outer h1.logo-right {
   color: white; }
 
 .container {

@@ -1,6 +1,7 @@
 @import 'app';
 
-.outer {
+// probably fix this horrid looking selector lol
+.outer, .outer h1.logo-left, .outer h1.logo-right {
   color: white;
 }
 
