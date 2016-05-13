@@ -1,6 +1,6 @@
 .outer {
-  color: $color-red;
   h1 {
+    color: $color-red;
     @extend .montserrat;
     font-weight: 700;
     transform: rotate(-90deg);
@@ -27,6 +27,7 @@
     }
   }
   .info {
+    color: $color-red;
     position: fixed;
     right: 30px;
     top: 30px;

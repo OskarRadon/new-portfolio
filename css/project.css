@@ -370,7 +370,7 @@ html {
 *, *::before, *::after {
   box-sizing: inherit; }
 
-a {
+.container a {
   color: #FF4747;
   text-decoration: none; }
 
@@ -383,64 +383,61 @@ a {
 .open-sans {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif; }
 
-.outer {
-  color: #FF4747; }
-  .outer h1 {
-    font-weight: 700;
-    transform: rotate(-90deg);
-    margin: 0px;
-    position: fixed; }
+.outer h1 {
+  color: #FF4747;
+  font-weight: 700;
+  transform: rotate(-90deg);
+  margin: 0px;
+  position: fixed; }
+  @media (min-width: 700px) {
+    .outer h1 {
+      font-size: 80px; } }
+  .outer h1.logo-left {
+    left: -20px;
+    top: 70px; }
     @media (min-width: 700px) {
-      .outer h1 {
-        font-size: 80px; } }
-    .outer h1.logo-left {
-      left: -20px;
-      top: 70px; }
+      .outer h1.logo-left {
+        left: -60px;
+        top: 155px; } }
+  .outer h1.logo-right {
+    right: -20px;
+    bottom: 70px; }
+    @media (min-width: 700px) {
+      .outer h1.logo-right {
+        right: -70px;
+        bottom: 155px; } }
+.outer .info {
+  color: #FF4747;
+  position: fixed;
+  right: 30px;
+  top: 30px; }
+  @media (min-width: 700px) {
+    .outer .info {
+      right: 60px;
+      top: 50px; } }
+  .outer .info h2 {
+    margin: 0px; }
+    .outer .info h2.location {
+      font-size: 18px; }
       @media (min-width: 700px) {
-        .outer h1.logo-left {
-          left: -60px;
-          top: 155px; } }
-    .outer h1.logo-right {
-      right: -20px;
-      bottom: 70px; }
+        .outer .info h2.location {
+          font-size: 36px; } }
+    .outer .info h2.career {
+      font-weight: normal;
+      font-style: italic;
+      font-size: 12px; }
       @media (min-width: 700px) {
-        .outer h1.logo-right {
-          right: -70px;
-          bottom: 155px; } }
-  .outer .info {
-    position: fixed;
-    right: 30px;
-    top: 30px; }
-    @media (min-width: 700px) {
-      .outer .info {
-        right: 60px;
-        top: 50px; } }
-    .outer .info h2 {
-      margin: 0px; }
-      .outer .info h2.location {
-        font-size: 18px; }
-        @media (min-width: 700px) {
-          .outer .info h2.location {
-            font-size: 36px; } }
-      .outer .info h2.career {
-        font-weight: normal;
-        font-style: italic;
-        font-size: 12px; }
-        @media (min-width: 700px) {
-          .outer .info h2.career {
-            font-size: 24px; } }
-  .outer .contact {
-    width: 60px;
-    position: fixed;
-    bottom: 20px;
-    left: 20px; }
-    @media (min-width: 700px) {
-      .outer .contact {
-        left: 56px;
-        bottom: 45px; } }
-
-.outer {
-  color: white; }
+        .outer .info h2.career {
+          font-size: 24px; } }
+.outer .contact {
+  width: 60px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px; }
+  @media (min-width: 700px) {
+    .outer .contact {
+      left: 56px;
+      bottom: 45px; } }
 
 .container {
   width: 100vw;

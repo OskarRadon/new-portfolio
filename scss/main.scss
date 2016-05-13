@@ -1,5 +1,14 @@
 @import 'app';
 
+.logo-left {
+  pointer-events: none;
+  cursor: default;
+}
+
+.logo-right {
+  @extend .logo-left;
+}
+
 .container {
   display: flex;
   flex-direction: column;

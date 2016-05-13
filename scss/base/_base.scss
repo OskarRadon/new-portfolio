@@ -11,8 +11,9 @@ html {
 }
 
 // BASIC LINK STYLES
-
-a {
-  color: $color-red;
-  text-decoration: none;
+.container {
+  a {
+    color: $color-red;
+    text-decoration: none;
+  }
 }
