@@ -510,4 +510,11 @@ html {
   font-family: loveMoment;
   font-size: 48px; }
 
+.container p.raleway {
+  font-family: 'Raleway';
+  font-size: 24px; }
+
+.container p.font-desc {
+  margin-bottom: 30px; }
+
 /*# sourceMappingURL=project.css.map */
