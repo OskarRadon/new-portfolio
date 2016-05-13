@@ -72,7 +72,7 @@ $project-list : ("orchard", "left"),
                 ("mosk", "65%");
 
 @each $project, $position in $project-list {
-  .#{$project} {
+  ##{$project} {
     background: url(../img/#{$project}/main-sm.jpg) #{$position};
   }
 }

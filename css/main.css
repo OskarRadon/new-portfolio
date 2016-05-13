@@ -486,22 +486,22 @@ a {
       color: #FFEF4F;
       margin-top: 114px; }
 
-.orchard {
+#orchard {
   background: url(../img/orchard/main-sm.jpg) left; }
 
-.aax {
+#aax {
   background: url(../img/aax/main-sm.jpg) center; }
 
-.cos {
+#cos {
   background: url(../img/cos/main-sm.jpg) center; }
 
-.sarah {
+#sarah {
   background: url(../img/sarah/main-sm.jpg) center; }
 
-.future {
+#future {
   background: url(../img/future/main-sm.jpg) center; }
 
-.mosk {
+#mosk {
   background: url(../img/mosk/main-sm.jpg) 65%; }
 
 /*# sourceMappingURL=main.css.map */
