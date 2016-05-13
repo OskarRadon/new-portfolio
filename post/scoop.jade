@@ -1,5 +1,9 @@
 //output:scoop.html
 
+mixin generateTitles(title) 
+  h2 #{title}
+  h2.two #{title}
+
 extends ../jade/base.jade
 
 block title
@@ -13,5 +17,13 @@ block fonts
 block styles
   link(rel="stylesheet", href="../css/project.css")
 
+block hey 
+  img.contact(src="../img/hey.png")
+
 block content
   .container
+    .hero
+      +generateTitles("SCOOP APP")
+      .splash
+    main
+    
