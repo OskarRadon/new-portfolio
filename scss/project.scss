@@ -22,5 +22,32 @@
         color: $color-black;
       }
     }
+    .splash {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  h3 {
+    text-align: center;
+    color: $color-black;
+  }
+}
+
+// Generate background images for splash divs
+
+// $splash-list :  "orchard",
+//                 "aax",
+//                 "cos",
+//                 "sarah",
+//                 "future",
+//                 "scoop",
+//                 "mosk";
+$splash-list : "scoop";
+
+@each $project in $splash-list {
+  ##{$project} {
+    background: url(../img/#{$project}/splash.png);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
