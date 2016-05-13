@@ -6,33 +6,41 @@ mixin generateTitles(title)
   h2.four #{title}
 
 
-doctype html
-html
-  include ./jade/_head.jade
-  body
-    include ./jade/_outer.jade
-    .container
-      // The second class is the project name (maybe not necessary)
-      img#pika(src="img/pika.gif")
-      a(href="#")
-        .post#sarah
-          +generateTitles("SARAH MEADOWS")
-      a(href="#")
-        .post#scoop
-          +generateTitles("SCOOP APP")
-      a(href="#")
-        .post#cos
-          +generateTitles("COS")
-      a(href="#")
-        .post#mosk
-          +generateTitles("MOSK")
-      a(href="#")
-        .post#future
-          +generateTitles("FUTURE LOGOS")
-      a(href="#")
-        .post#orchard
-          +generateTitles("ORCHARD47")
-      a(href="#")
-        .post#aax
-          +generateTitles("ALBUM ART EXCHANGE")
-          
+extends jade/base.jade
+
+block title
+  title Oskar Radon
+
+block fonts
+  // Hey be sure to remove all the font weights you don't use in the design!
+  link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700,700italic,600italic|Montserrat:700" type="text/css")
+  link(rel="icon" type="image/png" href="img/alien.png")
+  
+block styles
+  link(rel="stylesheet", href="css/main.css")
+
+block content
+
+  .container
+    img#pika(src="img/pika.gif")
+    a(href="#")
+      .post#sarah
+        +generateTitles("SARAH MEADOWS")
+    a(href="post/scoop.html")
+      .post#scoop
+        +generateTitles("SCOOP APP")
+    a(href="#")
+      .post#cos
+        +generateTitles("COS")
+    a(href="#")
+      .post#mosk
+        +generateTitles("MOSK")
+    a(href="#")
+      .post#future
+        +generateTitles("FUTURE LOGOS")
+    a(href="#")
+      .post#orchard
+        +generateTitles("ORCHARD47")
+    a(href="#")
+      .post#aax
+        +generateTitles("ALBUM ART EXCHANGE")
