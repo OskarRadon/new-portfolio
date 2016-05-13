@@ -1,6 +1,6 @@
 .outer {
+  color: $color-red;
   h1 {
-    color: $color-red;
     @extend .montserrat;
     font-weight: 700;
     transform: rotate(-90deg);
@@ -10,6 +10,7 @@
       font-size: 80px;
     }
     &.logo-left {
+      color: $color-red;
       left: -20px;
       top: 70px;
       @media #{$tablet} {
@@ -18,6 +19,7 @@
       }
     }
     &.logo-right {
+      color: $color-red;
       right: -20px;
       bottom: 70px;
       @media #{$tablet} {
@@ -27,7 +29,6 @@
     }
   }
   .info {
-    color: $color-red;
     position: fixed;
     right: 30px;
     top: 30px;
