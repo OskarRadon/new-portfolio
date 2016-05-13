@@ -38,6 +38,18 @@
     width: 200px;
     color: $color-black;
   }
+  .color {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .color-desc {
+    text-align: center;
+    &:nth-of-type(2n) {
+      margin-bottom: 20px;
+    }
+  }
 }
 
 // Generate background images for splash divs
@@ -57,4 +69,23 @@ $splash-list : "scoop";
     background-size: contain;
     background-repeat: no-repeat;
   }
+}
+
+
+// colors for color circle divs
+#paris-pass {
+  background-color: #D0F5FD;
+}
+
+#paris-daisy {
+  background-color: #FFF87A;
+}
+
+#pig-pink {
+  border: 1px solid $color-black;
+  background-color: #FDD4E7;
+}
+
+#shark {
+  background-color: #292F36;
 }

@@ -470,10 +470,32 @@ html {
     margin: 0px;
     width: 200px;
     color: #292F36; }
+  .container .color {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin-bottom: 10px; }
+  .container .color-desc {
+    text-align: center; }
+    .container .color-desc:nth-of-type(2n) {
+      margin-bottom: 20px; }
 
 #scoop {
   background: url(../img/scoop/splash.png);
   background-size: contain;
   background-repeat: no-repeat; }
+
+#paris-pass {
+  background-color: #D0F5FD; }
+
+#paris-daisy {
+  background-color: #FFF87A; }
+
+#pig-pink {
+  border: 1px solid #292F36;
+  background-color: #FDD4E7; }
+
+#shark {
+  background-color: #292F36; }
 
 /*# sourceMappingURL=project.css.map */
