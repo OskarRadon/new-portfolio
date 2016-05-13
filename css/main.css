@@ -449,8 +449,8 @@ a {
   .container .post {
     width: 180px;
     height: 180px;
-    margin-top: -10px;
-    background-size: cover; }
+    margin-bottom: 40px;
+    margin-top: -10px; }
     @media (min-width: 390px) {
       .container .post {
         width: 240px;
@@ -501,7 +501,17 @@ a {
 #future {
   background: url(../img/future/main-sm.jpg) center; }
 
+#scoop {
+  background: url(../img/scoop/main-sm.jpg) bottom; }
+
 #mosk {
   background: url(../img/mosk/main-sm.jpg) 65%; }
+
+#pika {
+  margin-bottom: 80px; }
+
+#future {
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 /*# sourceMappingURL=main.css.map */

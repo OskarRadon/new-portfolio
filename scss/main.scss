@@ -13,10 +13,9 @@
   .post {
     width: 180px;
     height: 180px;
-    // margin-bottom: 40px;
+    margin-bottom: 40px;
     margin-top: -10px;
     // background: peachpuff;
-    background-size: cover;
     @media #{$phone-lg} {
       width: 240px;
       height: 240px;
@@ -69,10 +68,22 @@ $project-list : ("orchard", "left"),
                 ("cos", "center"),
                 ("sarah", "center"),
                 ("future", "center"),
+                ("scoop", "bottom"),
                 ("mosk", "65%");
 
 @each $project, $position in $project-list {
   ##{$project} {
     background: url(../img/#{$project}/main-sm.jpg) #{$position};
   }
+}
+
+// Posts
+
+#pika {
+  margin-bottom: 80px;
+}
+
+#future {
+  background-size: cover;
+  background-repeat: no-repeat;
 }
