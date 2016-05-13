@@ -12,5 +12,14 @@ head
   block styles
   
   body
-    include outer.jade
+  .outer
+    h1.logo-left OSKAR
+    h1.logo-right RADON
+    .info
+      h2.location PORTLAND, OR
+      h2.career Web designer & developer
+    a(href="mailto:hi@oskarradon.com")
+      
+      block hey
+      
     block content
