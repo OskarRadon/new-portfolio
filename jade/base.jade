@@ -19,7 +19,9 @@ head
       h2.location PORTLAND, OR
       h2.career Web designer & developer
     a(href="mailto:hi@oskarradon.com")
-      
-      block hey
+      if isProject
+        img.contact(src="../img/hey.png")
+      else
+        img.contact(src="img/hey.png")
       
     block content
