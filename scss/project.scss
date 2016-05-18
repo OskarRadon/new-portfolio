@@ -78,6 +78,19 @@
       }
     }
   }
+  .font-wrapper {
+
+    .font {
+      max-width: 280px;
+      p.font-name {
+        margin-bottom: 20px;
+      }
+      p.font-desc {
+        margin-bottom: 30px;
+        width: 100%;
+      }
+    }
+  }
   img {
     width: 200px;
   }
@@ -156,14 +169,14 @@ $splash-list : "scoop";
   }
 }
 
-// .img1#scoop {
-//   width: 200px;
-//   height: 200px;
-//   background: red;
-// }
+
+//   SECRET AREA  //
+//     DANGER     //
+// EMPLOYEES ONLY //
 
 
-// colors for color circle divs
+// Colors for color circle divs
+
 #paris-pass {
   background-color: #D0F5FD;
 }
@@ -173,7 +186,6 @@ $splash-list : "scoop";
 }
 
 #pig-pink {
-  // border: 1px solid $color-black;
   background-color: #FDD4E7;
 }
 
@@ -181,25 +193,21 @@ $splash-list : "scoop";
   background-color: #292F36;
 }
 
+// Import extra fonts for case studies
+
 @font-face {
   font-family: loveMoment;
   src: url(../fonts/loveMoment.otf);
 }
 
-.container p.font-name {
-  margin-bottom: 20px;
-}
+// Implement those fonts in case study specific classes
 
-.container p.love-moment {
+p.love-moment {
   font-family: loveMoment;
   font-size: 48px;
 }
 
-.container p.raleway {
+p.raleway {
   font-family: 'Raleway';
   font-size: 24px;
-}
-
-.container p.font-desc {
-  margin-bottom: 30px;
 }

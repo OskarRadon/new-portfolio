@@ -497,6 +497,13 @@ html {
         text-align: center; }
         .container .color-wrapper .color .color-desc:nth-of-type(2n) {
           margin-bottom: 20px; }
+  .container .font-wrapper .font {
+    max-width: 280px; }
+    .container .font-wrapper .font p.font-name {
+      margin-bottom: 20px; }
+    .container .font-wrapper .font p.font-desc {
+      margin-bottom: 30px;
+      width: 100%; }
   .container img {
     width: 200px; }
 
@@ -571,18 +578,12 @@ html {
 @font-face {
   font-family: loveMoment;
   src: url(../fonts/loveMoment.otf); }
-.container p.font-name {
-  margin-bottom: 20px; }
-
-.container p.love-moment {
+p.love-moment {
   font-family: loveMoment;
   font-size: 48px; }
 
-.container p.raleway {
+p.raleway {
   font-family: 'Raleway';
   font-size: 24px; }
-
-.container p.font-desc {
-  margin-bottom: 30px; }
 
 /*# sourceMappingURL=project.css.map */
