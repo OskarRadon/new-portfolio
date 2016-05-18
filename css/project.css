@@ -470,15 +470,33 @@ html {
     @media (min-width: 700px) {
       .container p {
         width: 480px; } }
-  .container .color .circle {
-    height: 75px;
-    width: 75px;
-    border-radius: 50%;
-    margin: 0px auto 10px; }
-  .container .color .color-desc {
-    text-align: center; }
-    .container .color .color-desc:nth-of-type(2n) {
-      margin-bottom: 20px; }
+  .container .color-wrapper {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    @media (min-width: 390px) {
+      .container .color-wrapper {
+        width: 280px; } }
+    @media (min-width: 700px) {
+      .container .color-wrapper {
+        width: 480px; } }
+    .container .color-wrapper .color {
+      display: flex;
+      align-items: center;
+      flex-direction: column; }
+      @media (min-width: 390px) {
+        .container .color-wrapper .color {
+          width: 200px; } }
+      .container .color-wrapper .color .circle {
+        height: 75px;
+        width: 75px;
+        border-radius: 50%;
+        margin-bottom: 10px; }
+      .container .color-wrapper .color .color-desc {
+        text-align: center; }
+        .container .color-wrapper .color .color-desc:nth-of-type(2n) {
+          margin-bottom: 20px; }
   .container img {
     width: 200px; }
 

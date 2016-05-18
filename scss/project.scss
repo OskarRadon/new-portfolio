@@ -46,18 +46,35 @@
     //   margin-top: 20px;
     // }
   }
-  .color {
-
-    .circle {
-      height: 75px;
-      width: 75px;
-      border-radius: 50%;
-      margin: 0px auto 10px;
+  .color-wrapper {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    @media #{$phone-lg} {
+      width: 280px;
     }
-    .color-desc {
-      text-align: center;
-      &:nth-of-type(2n) {
-        margin-bottom: 20px;
+    @media #{$tablet} {
+      width: 480px;
+    }
+    .color {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      @media #{$phone-lg} {
+        width: 200px;
+      }
+      .circle {
+        height: 75px;
+        width: 75px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+      .color-desc {
+        text-align: center;
+        &:nth-of-type(2n) {
+          margin-bottom: 20px;
+        }
       }
     }
   }
