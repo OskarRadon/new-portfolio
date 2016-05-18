@@ -464,14 +464,20 @@ html {
     margin: 0px;
     width: 200px;
     color: #292F36; }
-  .container .color {
+    @media (min-width: 390px) {
+      .container p {
+        width: 280px; } }
+    @media (min-width: 700px) {
+      .container p {
+        width: 480px; } }
+  .container .color .circle {
     height: 75px;
     width: 75px;
     border-radius: 50%;
-    margin-bottom: 10px; }
-  .container .color-desc {
+    margin: 0px auto 10px; }
+  .container .color .color-desc {
     text-align: center; }
-    .container .color-desc:nth-of-type(2n) {
+    .container .color .color-desc:nth-of-type(2n) {
       margin-bottom: 20px; }
   .container img {
     width: 200px; }
