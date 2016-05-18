@@ -441,20 +441,19 @@ html {
         left: 56px;
         bottom: 45px; } }
 
-h2 {
-  margin: 0px;
-  color: #5AD95A;
-  text-align: center; }
-  h2.two {
-    margin: -10px 0 20px;
-    color: #FFEF4F; }
-
 .container {
   width: 100vw;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center; }
+  .container h2 {
+    margin: 0px;
+    color: #5AD95A;
+    text-align: center; }
+    .container h2.two {
+      margin: -10px 0 20px;
+      color: #FFEF4F; }
   .container .hero {
     margin-top: 100px; }
   .container h4 {
