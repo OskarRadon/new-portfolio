@@ -441,13 +441,9 @@ html {
         left: 56px;
         bottom: 45px; } }
 
-.outer, .outer h1.logo-left, .outer h1.logo-right {
-  color: white; }
-
 .container {
   width: 100vw;
   height: 100%;
-  background: #FDD4E7;
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -460,10 +456,6 @@ html {
       .container .hero h2.two {
         margin: -10px 0 20px;
         color: #FFEF4F; }
-    .container .hero .splash {
-      margin-top: 40px;
-      width: 200px;
-      height: 200px; }
   .container h4 {
     text-align: center;
     color: #292F36;
@@ -481,11 +473,23 @@ html {
     text-align: center; }
     .container .color-desc:nth-of-type(2n) {
       margin-bottom: 20px; }
+  .container img {
+    width: 200px; }
 
-#scoop {
+.splash#scoop {
   background: url(../img/scoop/splash.png);
   background-size: contain;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  width: 200px;
+  height: 200px; }
+
+.ui#scoop {
+  background: url(../img/scoop/ui-elements-sm.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  min-height: 500px; }
 
 #paris-pass {
   background-color: #D0F5FD; }
@@ -494,7 +498,6 @@ html {
   background-color: #FFF87A; }
 
 #pig-pink {
-  border: 1px solid #292F36;
   background-color: #FDD4E7; }
 
 #shark {
