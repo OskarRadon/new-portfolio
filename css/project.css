@@ -461,6 +461,7 @@ html {
     color: #292F36;
     margin: 40px 0; }
   .container p {
+    line-height: 1.6em;
     margin: 0px;
     width: 200px;
     color: #292F36; }
@@ -498,7 +499,10 @@ html {
         .container .color-wrapper .color .color-desc:nth-of-type(2n) {
           margin-bottom: 20px; }
   .container .font-wrapper .font {
-    max-width: 280px; }
+    width: 200px; }
+    @media (min-width: 390px) {
+      .container .font-wrapper .font {
+        width: 280px; } }
     .container .font-wrapper .font p.font-name {
       margin-bottom: 20px; }
     .container .font-wrapper .font p.font-desc {
@@ -580,7 +584,8 @@ html {
   src: url(../fonts/loveMoment.otf); }
 p.love-moment {
   font-family: loveMoment;
-  font-size: 48px; }
+  font-size: 48px;
+  line-height: normal; }
 
 p.raleway {
   font-family: 'Raleway';
