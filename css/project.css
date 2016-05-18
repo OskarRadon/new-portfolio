@@ -441,6 +441,14 @@ html {
         left: 56px;
         bottom: 45px; } }
 
+h2 {
+  margin: 0px;
+  color: #5AD95A;
+  text-align: center; }
+  h2.two {
+    margin: -10px 0 20px;
+    color: #FFEF4F; }
+
 .container {
   width: 100vw;
   height: 100%;
@@ -449,13 +457,6 @@ html {
   align-items: center; }
   .container .hero {
     margin-top: 100px; }
-    .container .hero h2 {
-      margin: 0px;
-      color: #5AD95A;
-      text-align: center; }
-      .container .hero h2.two {
-        margin: -10px 0 20px;
-        color: #FFEF4F; }
   .container h4 {
     text-align: center;
     color: #292F36;
@@ -476,6 +477,16 @@ html {
   .container img {
     width: 200px; }
 
+.outro {
+  margin: 40px 0; }
+  .outro .alien {
+    width: 30px;
+    height: 30px;
+    background: url(../img/alien.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto; }
+
 .splash#scoop {
   background: url(../img/scoop/splash.png);
   background-size: contain;
@@ -485,11 +496,42 @@ html {
   height: 200px; }
 
 .ui#scoop {
-  background: url(../img/scoop/ui-elements-sm.png);
+  background: url(../img/scoop/ui-sm.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 200px;
-  min-height: 500px; }
+  height: 500px; }
+
+.img1#scoop {
+  background: url(../img/scoop/img1-sm.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 800px; }
+
+.img2#scoop {
+  background: url(../img/scoop/img2-sm.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 800px;
+  margin-top: 40px; }
+
+.img-lg1#scoop {
+  background: url(../img/scoop/img-lg1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 690px;
+  margin-top: 40px; }
+
+.img-lg2#scoop {
+  background: url(../img/scoop/img-lg2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 850px;
+  margin-top: 40px; }
 
 #paris-pass {
   background-color: #D0F5FD; }
