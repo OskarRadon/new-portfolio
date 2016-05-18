@@ -3,6 +3,10 @@
 mixin generateTitles(title) 
   h2 #{title}
   h2.two #{title}
+  
+mixin generateThanks(title) 
+  h2 #{title}
+  h2.two #{title}
 
 extends ../jade/base.jade
 
@@ -64,3 +68,20 @@ block content
       The overall design is rounded and very simple, the app experience is designed around the idea that a user should quickly be able to see the information they care about, while rewarding exploration with additional important information. The fun and bright colors and rounded icons add to the carefree, exciting feeling. The contrast between heavy and thin typefaces indicate what information is primary and actionable. 
       
     h4 FINAL PRODUCT
+    .img1#scoop
+    //- p.desc.
+    //-   The login and sign up process
+    p.
+      The sign in screen is simple, with the sign up button given more priority to hopefully grab new users attentions. The background image emphasizes friendliness and a warm, calming aesthetic that allows the bright vibrant colors to pop out of the page.
+    .img2#scoop
+    p.
+      After signing up the user is taken through a simple onboarding process including a screen to set their preferences, with their favorite flavors and favorite shops based on their location. After a simple tutorial on the features of the app the user is brought to the dashboard.  
+    .img-lg1#scoop
+    p.
+      The dashboard shows all special flavors of the week, sorted by the distance from the user, how many days left before the flavor is no longer available, and how short the line is. A user can tap the heart to favorite a flavor and tap the flavor card to go to the flavor detail screen which includes a description of the flavor, the dietary details, and a map to the particular shop it’s available at.
+    .img-lg2#scoop
+    p.
+      Tapping the heart icon at the top of the screen brings the user to their favorites page which acts as a bookmarking system for the users favorite flavors. The gear icon at the top right of the screen allows the user to go back and edit their preferences. 
+    .outro
+      +generateTitles("THANKS FOR WATCHING!")
+      .alien
