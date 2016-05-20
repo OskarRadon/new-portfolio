@@ -5,6 +5,10 @@
 //   color: white;
 // }
 
+.fade-in {
+  opacity: 1;
+  transition: 200ms ease-in-out;
+}
 
 .container {
   width: 100vw;
@@ -16,7 +20,11 @@
     margin: 0px;
     color: $color-green;
     text-align: center;
+    &.one {
+      opacity: 0;
+    }
     &.two {
+      opacity: 0;
       margin: -10px 0 20px;
       color: $color-yellow;
     }

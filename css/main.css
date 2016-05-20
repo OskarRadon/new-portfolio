@@ -475,12 +475,26 @@ html {
     .container .post:hover {
       padding-top: -10px; }
     @media (min-width: 950px) {
-      .container .post:hover h2 {
-        display: block; } }
+      .container .post:hover h2.one {
+        opacity: 1;
+        transition: 200ms ease-in-out; } }
+    @media (min-width: 950px) {
+      .container .post:hover h2.two {
+        opacity: 1;
+        transition: 300ms ease-in-out; } }
+    @media (min-width: 950px) {
+      .container .post:hover h2.three {
+        opacity: 1;
+        transition: 400ms ease-in-out; } }
+    @media (min-width: 950px) {
+      .container .post:hover h2.four {
+        opacity: 1;
+        transition: 500ms ease-in-out; } }
     .container .post h2 {
       color: #5AD95A;
       position: absolute;
-      display: none;
+      opacity: 0;
+      transition: 200ms ease-in-out;
       font-size: 60px;
       margin: 0px;
       margin-top: -15px; }
