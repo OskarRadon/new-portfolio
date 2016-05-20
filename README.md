@@ -1,7 +1,7 @@
 ## Portfolio Site
 
 #### Description
-This is my second design for my portfolio, [click here](http://oskarradon.com) to see it for real!
+This is my second design for my portfolio, Check out my first version [here](https://github.com/OskarRadon/Oskar-Radon-site), and [click here](http://oskarradon.com) to see the site for real!
 
 #### Technologies Used
 
