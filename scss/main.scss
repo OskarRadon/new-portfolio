@@ -81,7 +81,7 @@
     }
     .four {
       color: $color-yellow;
-      margin-top: 114px;
+      margin-top: 114px; // + 43 this could be made into a mixin
     }
   }
 }
