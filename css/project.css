@@ -451,9 +451,20 @@ html {
     margin: 0px;
     color: #5AD95A;
     text-align: center; }
+    .container h2.one {
+      opacity: 0; }
     .container h2.two {
+      opacity: 0;
       margin: -10px 0 20px;
       color: #FFEF4F; }
+  @media (min-width: 950px) {
+    .container:hover h2.one {
+      opacity: 1;
+      transition: 200ms ease-in-out; } }
+  @media (min-width: 950px) {
+    .container:hover h2.two {
+      opacity: 1;
+      transition: 300ms ease-in-out; } }
   .container .hero {
     margin-top: 100px; }
   .container h4 {
