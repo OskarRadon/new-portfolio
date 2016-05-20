@@ -441,6 +441,10 @@ html {
         left: 56px;
         bottom: 45px; } }
 
+.fade-in {
+  opacity: 1;
+  transition: 200ms ease-in-out; }
+
 .container {
   width: 100vw;
   height: 100%;
@@ -457,14 +461,6 @@ html {
       opacity: 0;
       margin: -10px 0 20px;
       color: #FFEF4F; }
-  @media (min-width: 950px) {
-    .container:hover h2.one {
-      opacity: 1;
-      transition: 200ms ease-in-out; } }
-  @media (min-width: 950px) {
-    .container:hover h2.two {
-      opacity: 1;
-      transition: 300ms ease-in-out; } }
   .container .hero {
     margin-top: 100px; }
   .container h4 {

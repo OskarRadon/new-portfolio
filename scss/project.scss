@@ -5,6 +5,10 @@
 //   color: white;
 // }
 
+.fade-in {
+  opacity: 1;
+  transition: 200ms ease-in-out;
+}
 
 .container {
   width: 100vw;
@@ -12,7 +16,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
   h2 {
     margin: 0px;
     color: $color-green;
@@ -24,18 +27,6 @@
       opacity: 0;
       margin: -10px 0 20px;
       color: $color-yellow;
-    }
-  }
-  &:hover h2.one {
-    @media #{$desktop} {
-      opacity: 1;
-      transition: 200ms ease-in-out;
-    }
-  }
-  &:hover h2.two {
-    @media #{$desktop} {
-      opacity: 1;
-      transition: 300ms ease-in-out;
     }
   }
   .hero {
