@@ -18,5 +18,6 @@ SCSS, Jade, probably jQuery
 - Test for cross-browser compatability
 - Continually test page load time and page size
 - Make mixin for margin-top of titles on main page
+- Is the mobile front page really broken or is it just Chrome?
 
 Copyright (c) 2016 **Oskar**
