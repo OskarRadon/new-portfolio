@@ -1,10 +1,5 @@
 @import 'app';
 
-// probably fix this horrid looking selector lol
-// .outer, .outer h1.logo-left, .outer h1.logo-right {
-//   color: white;
-// }
-
 .fade-in {
   opacity: 1;
   transition: 200ms ease-in-out;
@@ -21,10 +16,10 @@
     color: $color-green;
     text-align: center;
     &.one {
-      opacity: 0;
+      // opacity: 0;
     }
     &.two {
-      opacity: 0;
+      // opacity: 0;
       margin: -10px 0 20px;
       color: $color-yellow;
     }
