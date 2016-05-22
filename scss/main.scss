@@ -11,7 +11,6 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  // background: tomato;
   margin: 140px 0 0;
   .post {
     width: 180px;
@@ -19,7 +18,6 @@
     background-size: 50%;
     margin-bottom: 40px;
     margin-top: -10px;
-    // background: peachpuff;
     @media #{$phone-lg} {
       width: 240px;
       height: 240px;
