@@ -455,10 +455,7 @@ html {
     margin: 0px;
     color: #5AD95A;
     text-align: center; }
-    .container h2.one {
-      opacity: 0; }
     .container h2.two {
-      opacity: 0;
       margin: -10px 0 20px;
       color: #FFEF4F; }
   .container .hero {
