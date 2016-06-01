@@ -55,8 +55,43 @@
         }
       }
     }
+    // animate on hover
+    &:hover .contact svg{
+      opacity: 1;
+      margin-top: 0px;
+      @for $i from 1 through 5 {
+        $s: #{$i}00;
+        &#c#{$i} {
+          transition: #{$s}0ms ease;
+        }
+      }
+    }
+    .contact {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 5px;
+      @media #{$tablet} {
+        padding-top: 10px;
+        // display: none;
+      }
+      svg {
+        fill: $color-red;
+        width: 20px;
+        height: 20px;
+        opacity: 1;
+        @media #{$tablet} {
+          opacity: 0;
+          margin-top: -50px;
+          width: 40px;
+          height: 40px;
+        }
+        &:hover, &:active {
+          fill: $color-green;
+        }
+      }
+    }
   }
-  .contact {
+  .hey {
     width: 60px;
     position: fixed;
     bottom: 20px;

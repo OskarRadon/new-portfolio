@@ -431,13 +431,46 @@ html {
         @media (min-width: 700px) {
           .outer .info h2.career {
             font-size: 24px; } }
-  .outer .contact {
+    .outer .info:hover .contact svg {
+      opacity: 1;
+      margin-top: 0px; }
+      .outer .info:hover .contact svg#c1 {
+        transition: 100ms ease; }
+      .outer .info:hover .contact svg#c2 {
+        transition: 200ms ease; }
+      .outer .info:hover .contact svg#c3 {
+        transition: 300ms ease; }
+      .outer .info:hover .contact svg#c4 {
+        transition: 400ms ease; }
+      .outer .info:hover .contact svg#c5 {
+        transition: 500ms ease; }
+    .outer .info .contact {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 5px; }
+      @media (min-width: 700px) {
+        .outer .info .contact {
+          padding-top: 10px; } }
+      .outer .info .contact svg {
+        fill: #FF4747;
+        width: 20px;
+        height: 20px;
+        opacity: 1; }
+        @media (min-width: 700px) {
+          .outer .info .contact svg {
+            opacity: 0;
+            margin-top: -50px;
+            width: 40px;
+            height: 40px; } }
+        .outer .info .contact svg:hover, .outer .info .contact svg:active {
+          fill: #5AD95A; }
+  .outer .hey {
     width: 60px;
     position: fixed;
     bottom: 20px;
     left: 20px; }
     @media (min-width: 700px) {
-      .outer .contact {
+      .outer .hey {
         left: 56px;
         bottom: 45px; } }
 
