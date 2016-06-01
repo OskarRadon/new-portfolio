@@ -15,6 +15,9 @@
     margin: 0px;
     color: $color-green;
     text-align: center;
+    @media #{$desktop} {
+      font-size: 3rem;
+    }
     &.one {
       // opacity: 0;
     }

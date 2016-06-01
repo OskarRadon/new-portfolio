@@ -455,6 +455,9 @@ html {
     margin: 0px;
     color: #5AD95A;
     text-align: center; }
+    @media (min-width: 950px) {
+      .container h2 {
+        font-size: 3rem; } }
     .container h2.two {
       margin: -10px 0 20px;
       color: #FFEF4F; }
