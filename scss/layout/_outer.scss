@@ -60,8 +60,9 @@
       opacity: 1;
       margin-top: 0px;
       @for $i from 1 through 5 {
+        $s: #{$i}00;
         &#c#{$i} {
-          transition: #{$i}00ms ease;
+          transition: #{$s}ms ease;
         }
       }
     }
