@@ -55,8 +55,12 @@
         }
       }
     }
+    svg {
+      fill: $color-red;
+      width: 40px;
+    }
   }
-  .contact {
+  .hey {
     width: 60px;
     position: fixed;
     bottom: 20px;

@@ -431,13 +431,16 @@ html {
         @media (min-width: 700px) {
           .outer .info h2.career {
             font-size: 24px; } }
-  .outer .contact {
+    .outer .info svg {
+      fill: #FF4747;
+      width: 40px; }
+  .outer .hey {
     width: 60px;
     position: fixed;
     bottom: 20px;
     left: 20px; }
     @media (min-width: 700px) {
-      .outer .contact {
+      .outer .hey {
         left: 56px;
         bottom: 45px; } }
 
