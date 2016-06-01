@@ -417,8 +417,6 @@ html {
       .outer .info {
         right: 60px;
         top: 50px; } }
-    .outer .info:hover .contact {
-      display: flex; }
     .outer .info h2 {
       margin: 0px; }
       .outer .info h2.location {
@@ -433,23 +431,29 @@ html {
         @media (min-width: 700px) {
           .outer .info h2.career {
             font-size: 24px; } }
+    .outer .info:hover .contact svg {
+      opacity: 1;
+      margin-top: 0px;
+      transition: 200ms ease; }
     .outer .info .contact {
       display: flex;
       justify-content: space-between;
       padding-top: 5px; }
       @media (min-width: 700px) {
         .outer .info .contact {
-          padding-top: 10px;
-          display: none; } }
+          padding-top: 10px; } }
       .outer .info .contact svg {
         fill: #FF4747;
         width: 20px;
-        height: 20px; }
+        height: 20px;
+        opacity: 1; }
         @media (min-width: 700px) {
           .outer .info .contact svg {
+            opacity: 0;
+            margin-top: -50px;
             width: 40px;
             height: 40px; } }
-        .outer .info .contact svg:hover {
+        .outer .info .contact svg:hover, .outer .info .contact svg:active {
           fill: #5AD95A; }
   .outer .hey {
     width: 60px;

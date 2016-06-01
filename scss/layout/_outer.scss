@@ -36,9 +36,6 @@
       right: 60px;
       top: 50px;
     }
-    &:hover .contact {
-      display: flex;
-    }
     h2 {
       margin: 0px;
       &.location {
@@ -58,23 +55,32 @@
         }
       }
     }
+    // animate on hover
+    &:hover .contact svg{
+      opacity: 1;
+      margin-top: 0px;
+      transition: 200ms ease;
+    }
     .contact {
       display: flex;
       justify-content: space-between;
       padding-top: 5px;
       @media #{$tablet} {
         padding-top: 10px;
-        display: none;
+        // display: none;
       }
       svg {
         fill: $color-red;
         width: 20px;
         height: 20px;
+        opacity: 1;
         @media #{$tablet} {
+          opacity: 0;
+          margin-top: -50px;
           width: 40px;
           height: 40px;
         }
-        &:hover {
+        &:hover, &:active {
           fill: $color-green;
         }
       }
