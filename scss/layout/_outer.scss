@@ -59,7 +59,12 @@
     &:hover .contact svg{
       opacity: 1;
       margin-top: 0px;
-      transition: 200ms ease;
+      @for $i from 1 through 5 {
+        $s: calc(#{$i} * 100);
+        &#c#{$i} {
+          transition: #{$s}ms ease;
+        }
+      }
     }
     .contact {
       display: flex;
