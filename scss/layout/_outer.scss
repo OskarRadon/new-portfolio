@@ -62,7 +62,7 @@
       @for $i from 1 through 5 {
         $s: #{$i}00;
         &#c#{$i} {
-          transition: #{$s}ms ease;
+          transition: #{$s}0ms ease;
         }
       }
     }

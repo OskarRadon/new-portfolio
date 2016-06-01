@@ -435,15 +435,15 @@ html {
       opacity: 1;
       margin-top: 0px; }
       .outer .info:hover .contact svg#c1 {
-        transition: 10ms ease; }
+        transition: 100ms ease; }
       .outer .info:hover .contact svg#c2 {
-        transition: 20ms ease; }
+        transition: 200ms ease; }
       .outer .info:hover .contact svg#c3 {
-        transition: 30ms ease; }
+        transition: 300ms ease; }
       .outer .info:hover .contact svg#c4 {
-        transition: 40ms ease; }
+        transition: 400ms ease; }
       .outer .info:hover .contact svg#c5 {
-        transition: 50ms ease; }
+        transition: 500ms ease; }
     .outer .info .contact {
       display: flex;
       justify-content: space-between;
