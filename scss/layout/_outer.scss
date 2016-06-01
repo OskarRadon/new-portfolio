@@ -36,6 +36,9 @@
       right: 60px;
       top: 50px;
     }
+    &:hover .contact {
+      display: flex;
+    }
     h2 {
       margin: 0px;
       &.location {
@@ -55,9 +58,23 @@
         }
       }
     }
-    svg {
-      fill: $color-red;
-      width: 40px;
+    .contact {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 5px;
+      @media #{$tablet} {
+        padding-top: 10px;
+        display: none;
+      }
+      svg {
+        fill: $color-red;
+        width: 20px;
+        height: 20px;
+        @media #{$tablet} {
+          width: 40px;
+          height: 40px;
+        }
+      }
     }
   }
   .hey {

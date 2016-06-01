@@ -417,6 +417,8 @@ html {
       .outer .info {
         right: 60px;
         top: 50px; } }
+    .outer .info:hover .contact {
+      display: flex; }
     .outer .info h2 {
       margin: 0px; }
       .outer .info h2.location {
@@ -431,9 +433,22 @@ html {
         @media (min-width: 700px) {
           .outer .info h2.career {
             font-size: 24px; } }
-    .outer .info svg {
-      fill: #FF4747;
-      width: 40px; }
+    .outer .info .contact {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 5px; }
+      @media (min-width: 700px) {
+        .outer .info .contact {
+          padding-top: 10px;
+          display: none; } }
+      .outer .info .contact svg {
+        fill: #FF4747;
+        width: 20px;
+        height: 20px; }
+        @media (min-width: 700px) {
+          .outer .info .contact svg {
+            width: 40px;
+            height: 40px; } }
   .outer .hey {
     width: 60px;
     position: fixed;
