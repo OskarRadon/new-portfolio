@@ -21,5 +21,7 @@ SCSS, Jade, probably jQuery
 - ~~Is the mobile front page really broken or is it just Chrome?~~
 - Make front page images less pixelated
 - Should the images be square?
+- Alt text for everything
+- Test for cross-browser compatability
 
 Copyright (c) 2016 **Oskar**
