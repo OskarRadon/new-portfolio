@@ -484,7 +484,13 @@ html {
   align-items: center;
   width: 100%;
   height: 100%;
-  margin: 140px 0 0; }
+  margin: 200px auto 0; }
+  @media (min-width: 850px) {
+    .container {
+      width: 560px;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between; } }
   .container .post {
     width: 180px;
     height: 180px;
@@ -559,9 +565,5 @@ html {
 #future {
   background-size: cover;
   background-repeat: no-repeat; }
-
-@media (min-width: 950px) {
-  #scoop {
-    background-position: bottom; } }
 
 /*# sourceMappingURL=main.css.map */
