@@ -1,7 +1,7 @@
+// on document load
 
-// Trigger fade in effect on "Thanks for watching" text once user scrolls to the bottom of the page
+// when you hover on a .post
 
-// function testScroll(ev){
-//     if(window.pageYOffset>400)alert('User has scrolled at least 400 px!');
-// }
-// window.onscroll=testScroll
+// get the id
+
+// show .bg div where class === id of hovered div 
