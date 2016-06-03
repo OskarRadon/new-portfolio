@@ -496,15 +496,6 @@ html {
         width: 240px;
         height: 240px;
         margin-bottom: 80px; } }
-    @media (min-width: 700px) {
-      .container .post {
-        width: 400px;
-        height: 227px; } }
-    @media (min-width: 950px) {
-      .container .post {
-        width: 600px;
-        height: 427px;
-        margin-bottom: 200px; } }
     .container .post:hover {
       padding-top: -10px; }
     @media (min-width: 950px) {

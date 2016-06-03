@@ -23,15 +23,15 @@
       height: 240px;
       margin-bottom: 80px;
     }
-    @media #{$tablet} {
-      width: 400px;
-      height: 227px;
-    }
-    @media #{$desktop} {
-      width: 600px;
-      height: 427px;
-      margin-bottom: 200px;
-    }
+    // @media #{$tablet} {
+    //   width: 400px;
+    //   height: 227px;
+    // }
+    // @media #{$desktop} {
+    //   width: 600px;
+    //   height: 427px;
+    //   margin-bottom: 200px;
+    // }
     &:hover {
       padding-top: -10px;
     }
