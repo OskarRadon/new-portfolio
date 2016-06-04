@@ -374,7 +374,7 @@ html {
   color: #FF4747;
   text-decoration: none; }
 
-.montserrat, .outer h1, .outer .info h2.location, .container .post h2 {
+.montserrat, .outer h1, .outer .info h2.location, .bg h2, .container .post h2 {
   font-family: 'Montserrat', 'Helvetica Neue', sans-serif; }
 
 .georgia, .outer .info h2.career {
@@ -478,13 +478,33 @@ html {
   pointer-events: none;
   cursor: default; }
 
+.bg {
+  width: 100%;
+  height: 100%;
+  display: none; }
+  .bg h2 {
+    color: white;
+    font-size: 18.5em;
+    text-transform: uppercase;
+    z-index: -99;
+    position: absolute;
+    margin: 0px;
+    top: 8%;
+    left: 10%; }
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   height: 100%;
-  margin: 140px 0 0; }
+  margin: 200px auto 0; }
+  @media (min-width: 850px) {
+    .container {
+      width: 560px;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between; } }
   .container .post {
     width: 180px;
     height: 180px;
@@ -496,15 +516,6 @@ html {
         width: 240px;
         height: 240px;
         margin-bottom: 80px; } }
-    @media (min-width: 700px) {
-      .container .post {
-        width: 400px;
-        height: 227px; } }
-    @media (min-width: 950px) {
-      .container .post {
-        width: 600px;
-        height: 427px;
-        margin-bottom: 200px; } }
     .container .post:hover {
       padding-top: -10px; }
     @media (min-width: 950px) {
@@ -568,9 +579,5 @@ html {
 #future {
   background-size: cover;
   background-repeat: no-repeat; }
-
-@media (min-width: 950px) {
-  #scoop {
-    background-position: bottom; } }
 
 /*# sourceMappingURL=main.css.map */

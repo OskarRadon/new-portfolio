@@ -1,9 +1,7 @@
 //output:index.html
+
 mixin generateTitles(title) 
-  h2.one #{title}
-  h2.two #{title}
-  h2.three #{title}
-  h2.four #{title}
+  h2 #{title} <br>&nbsp;&nbsp;#{title} <br>&nbsp;&nbsp;&nbsp;&nbsp;#{title}
 
 
 extends jade/base.jade
@@ -12,8 +10,7 @@ block title
   title Oskar Radon
 
 block fonts
-  // Hey be sure to remove all the font weights you don't use in the design!
-  link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700,700italic,600italic|Montserrat:700" type="text/css")
+  link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Montserrat:700" type="text/css")
   link(rel="icon" type="image/png" href="img/alien.png")
   
 block styles
@@ -24,26 +21,33 @@ block hey
 
 block content
 
+  .bg#scoop-bg
+    mixin generateTitles("scoop")
+  .bg#cos-bg
+    mixin generateTitles("cos")
+  .bg#mosk-bg
+    mixin generateTitles("mosk")
+  .bg#future-bg
+    mixin generateTitles("future logos")
+  .bg#orchard-bg
+    mixin generateTitles("orchard47")
+  .bg#aax-bg
+    mixin generateTitles("album art exchange")
+  
   .container
-    img#pika(src="img/pika.gif")
-    //- a(href="#")
-    //-   .post#sarah
-    //-     +generateTitles("SARAH MEADOWS")
     a(href="post/scoop.html")
       .post#scoop
-        +generateTitles("SCOOP APP")
-    a(href="#")
+    a(href="post/cos.html")
       .post#cos
-        +generateTitles("COS")
-    a(href="#")
+    a(href="post/mosk.html")
       .post#mosk
-        +generateTitles("MOSK")
-    a(href="#")
+    a(href="post/future.html")
       .post#future
-        +generateTitles("FUTURE LOGOS")
-    a(href="#")
+    a(href="post/orchard.html")
       .post#orchard
-        +generateTitles("ORCHARD47")
-    a(href="#")
+    a(href="post/aax.html")
       .post#aax
-        +generateTitles("ALBUM ART EXCHANGE")
+
+block scripts
+  script(type="text/javascript" src="js/jquery-1.12.4.min.js")
+  script(type="text/javascript" src="js/index.js")
