@@ -374,7 +374,7 @@ html {
   color: #FF4747;
   text-decoration: none; }
 
-.montserrat, .outer h1, .outer .info h2.location, .container .post h2 {
+.montserrat, .outer h1, .outer .info h2.location, .bg h2, .container .post h2 {
   font-family: 'Montserrat', 'Helvetica Neue', sans-serif; }
 
 .georgia, .outer .info h2.career {
@@ -477,6 +477,26 @@ html {
 .logo-left, .logo-right {
   pointer-events: none;
   cursor: default; }
+
+body {
+  background: #5AD95A;
+  overflow: hidden; }
+
+.bg {
+  width: 100%;
+  height: 100%;
+  display: none; }
+  .bg h2 {
+    color: white;
+    font-size: 18.5em;
+    text-transform: uppercase;
+    z-index: -99;
+    position: absolute;
+    margin: 0px;
+    top: 8%;
+    left: 10%; }
+  .bg#orchard-bg {
+    display: block; }
 
 .container {
   display: flex;

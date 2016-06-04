@@ -1,9 +1,7 @@
 //output:index.html
-//- mixin generateTitles(title) 
-//-   h2.one #{title}
-//-   h2.two #{title}
-//-   h2.three #{title}
-//-   h2.four #{title}
+
+mixin generateTitles(title) 
+  h2 #{title} <br>&nbsp;&nbsp;#{title} <br>&nbsp;&nbsp;&nbsp;&nbsp;#{title}
 
 
 extends jade/base.jade
@@ -22,26 +20,33 @@ block hey
   img.hey(src="img/hey.png")
 
 block content
+
+  .bg#scoop-bg
+    mixin generateTitles("scoop")
+  .bg#cos-bg
+    mixin generateTitles("cos")
+  .bg#mosk-bg
+    mixin generateTitles("mosk")
+  .bg#future-bg
+    mixin generateTitles("future logos")
+  .bg#orchard-bg
+    mixin generateTitles("orchard47")
+  .bg#aax-bg
+    mixin generateTitles("album art exchange")
+  
   .container
-    //- img#pika(src="img/pika.gif")
     a(href="post/scoop.html")
       .post#scoop
-        //- +generateTitles("SCOOP APP")
     a(href="post/cos.html")
       .post#cos
-        //- +generateTitles("COS")
     a(href="post/mosk.html")
       .post#mosk
-        //- +generateTitles("MOSK")
     a(href="post/future.html")
       .post#future
-        //- +generateTitles("FUTURE LOGOS")
     a(href="post/orchard.html")
       .post#orchard
-        //- +generateTitles("ORCHARD47")
     a(href="post/aax.html")
       .post#aax
-        //- +generateTitles("ALBUM ART EXCHANGE")
 
 block scripts
   script(src="js/jquery-1.12.4.min.js")
