@@ -50,15 +50,6 @@ body {
       height: 240px;
       margin-bottom: 80px;
     }
-    // @media #{$tablet} {
-    //   width: 400px;
-    //   height: 227px;
-    // }
-    // @media #{$desktop} {
-    //   width: 600px;
-    //   height: 427px;
-    //   margin-bottom: 200px;
-    // }
     &:hover {
       padding-top: -10px;
     }
@@ -127,7 +118,7 @@ $project-list : ("orchard", "left"),
   }
 }
 
-// Posts
+// Styling for specific posts
 
 #pika {
   margin-bottom: 80px;
@@ -136,10 +127,4 @@ $project-list : ("orchard", "left"),
 #future {
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-#scoop {
-  // @media #{$desktop} {
-  //   background-position: bottom;
-  // }
 }
