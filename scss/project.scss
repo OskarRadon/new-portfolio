@@ -1,223 +1,39 @@
 @import 'app';
 
-.fade-in {
-  opacity: 1;
-  transition: 200ms ease-in-out;
-}
-
 .container {
-  width: 100vw;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  h2 {
-    margin: 0px;
-    color: $color-green;
+  margin: 130px auto 0;
+  @media #{$tablet} {
+    margin-top: 200px;
+  }
+  .title {
+    @extend .montserrat;
     text-align: center;
-    @media #{$desktop} {
-      font-size: 3rem;
-    }
-    &.one {
-      // opacity: 0;
-    }
-    &.two {
-      // opacity: 0;
-      margin: -10px 0 20px;
-      color: $color-yellow;
-    }
-  }
-  .hero {
-    margin-top: 100px;
-  }
-  h4 {
-    text-align: center;
-    color: $color-black;
-    margin: 40px 0;
-  }
-  p {
-    line-height: 1.6em;
-    @extend .open-sans;
-    margin: 0px;
-    width: 200px;
-    color: $color-black;
-    @media #{$phone-lg} {
-      width: 280px;
-    }
-    @media #{$tablet} {
-      width: 480px;
-    }
-    // &.desc {
-    //   font-style: italic;
-    //   text-align: center;
-    //   margin-top: 20px;
-    // }
-  }
-  .color-wrapper {
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    @media #{$phone-lg} {
-      width: 280px;
-    }
-    @media #{$tablet} {
-      width: 480px;
-    }
-    .color {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      @media #{$phone-lg} {
-        width: 200px;
+    text-transform: uppercase;
+    h2 {
+      color: $color-blue;
+      font-size: 2em;
+      margin: 0px;
+      @media #{$tablet} {
+        font-size: 3em;
       }
-      .circle {
-        height: 75px;
-        width: 75px;
-        border-radius: 50%;
-        margin-bottom: 10px;
+      @media #{$desktop} {
+        font-size: 4em;
       }
-      .color-desc {
-        text-align: center;
-        &:nth-of-type(2n) {
-          margin-bottom: 20px;
-        }
+    }
+    h4 {
+      margin: 0px;
+      @media #{$tablet} {
+        font-size: 1.5em;
+      }
+      .dot {
+        color: $color-blue;
+      }
+      .tag {
+        color: $color-green;
+      }
+      .year {
+        color: $color-red;
       }
     }
   }
-  .font-wrapper {
-    .font {
-      width: 200px;
-      @media #{$phone-lg} {
-        width: 280px;
-      }
-      p.font-name {
-        margin-bottom: 20px;
-      }
-      p.font-desc {
-        margin-bottom: 30px;
-        width: 100%;
-      }
-    }
-  }
-  img {
-    width: 200px;
-  }
-}
-
-.outro {
-  margin: 40px 0;
-  .alien {
-    width: 30px;
-    height: 30px;
-    background: url(../img/alien.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: auto;
-  }
-}
-
-// Generate background images for splash divs
-
-// $splash-list :  "orchard",
-//                 "aax",
-//                 "cos",
-//                 "sarah",
-//                 "future",
-//                 "scoop",
-//                 "mosk";
-$splash-list : "scoop";
-
-@each $project in $splash-list {
-  .splash##{$project} {
-    background: url(../img/#{$project}/splash.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: 40px;
-    width: 200px;
-    height: 200px;
-  }
-  .ui##{$project} {
-    background: url(../img/#{$project}/ui-sm.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    // margin-top: 40px;
-    width: 200px;
-    height: 500px;
-  }
-  .img1##{$project} {
-    background: url(../img/#{$project}/img1-sm.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 200px;
-    height: 800px;
-  }
-  .img2##{$project} {
-    background: url(../img/#{$project}/img2-sm.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 200px;
-    height: 800px;
-    margin-top: 40px;
-  }
-  .img-lg1##{$project} {
-    background: url(../img/#{$project}/img-lg1.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 200px;
-    height: 690px;
-    margin-top: 40px;
-  }
-  .img-lg2##{$project} {
-    background: url(../img/#{$project}/img-lg2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 200px;
-    height: 850px;
-    margin-top: 40px;
-  }
-}
-
-
-//   SECRET AREA  //
-//     DANGER     //
-// EMPLOYEES ONLY //
-
-
-// Colors for color circle divs
-
-#paris-pass {
-  background-color: #D0F5FD;
-}
-
-#paris-daisy {
-  background-color: #FFF87A;
-}
-
-#pig-pink {
-  background-color: #FDD4E7;
-}
-
-#shark {
-  background-color: #292F36;
-}
-
-// Import extra fonts for case studies
-
-@font-face {
-  font-family: loveMoment;
-  src: url(../fonts/loveMoment.otf);
-}
-
-// Implement those fonts in case study specific classes
-
-p.love-moment {
-  font-family: loveMoment;
-  font-size: 48px;
-  line-height: normal;
-}
-
-p.raleway {
-  font-family: 'Raleway';
-  font-size: 24px;
 }
