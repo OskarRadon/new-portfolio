@@ -5,7 +5,7 @@ This is my second design for my portfolio, Check out my first version [here](htt
 
 #### Technologies Used
 
-SCSS, Jade, probably jQuery
+SCSS, Jade, ~~probably~~ definitely jQuery
 
 #### To do:
 - ~~Try out having the whole portfolio thumbnail covered with titles~~
