@@ -8,8 +8,8 @@ This is my second design for my portfolio, Check out my first version [here](htt
 SCSS, Jade, probably jQuery
 
 #### To do:
-- Try out having the whole portfolio thumbnail covered with titles
-- Implement script to make titles(and maybe images) fade in on page load
+- ~~Try out having the whole portfolio thumbnail covered with titles~~
+- ~~Implement script to make titles(and maybe images) fade in on page load~~
 - Try out having outer div slide up on page load (don't go overboard on animations though lol)
 - Make the rest of the project pages
 - Finish Scoop page for large screen sizes
@@ -20,8 +20,7 @@ SCSS, Jade, probably jQuery
 - Make mixin for margin-top of titles on main page
 - ~~Is the mobile front page really broken or is it just Chrome?~~
 - Make front page images less pixelated
-- Should the images be square?
+- ~~Should the images be square?~~
 - Alt text for everything
-- Test for cross-browser compatability
 
 Copyright (c) 2016 **Oskar**
