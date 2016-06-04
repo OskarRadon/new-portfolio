@@ -57,12 +57,19 @@
     }
     // animate on hover
     &:hover .contact svg{
-      opacity: 1;
-      margin-top: 0px;
+      @keyframes appear {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+          margin-top: 0px;
+        }
+      }
       @for $i from 1 through 5 {
         $s: #{$i}00;
         &#c#{$i} {
-          transition: #{$s}0ms ease;
+          animation: appear #{$s}0ms ease;
         }
       }
     }

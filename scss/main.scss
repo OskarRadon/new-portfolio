@@ -50,55 +50,6 @@ body {
       height: 240px;
       margin-bottom: 80px;
     }
-    &:hover {
-      padding-top: -10px;
-    }
-    &:hover h2.one {
-      @media #{$desktop} {
-        opacity: 1;
-        transition: 200ms ease-in-out;
-      }
-    }
-    &:hover h2.two {
-      @media #{$desktop} {
-        opacity: 1;
-        transition: 300ms ease-in-out;
-      }
-    }
-    &:hover h2.three {
-      @media #{$desktop} {
-        opacity: 1;
-        transition: 400ms ease-in-out;
-      }
-    }
-    &:hover h2.four {
-      @media #{$desktop} {
-        opacity: 1;
-        transition: 500ms ease-in-out;
-      }
-    }
-    h2 {
-      @extend .montserrat;
-      color: $color-green;
-      position: absolute;
-      opacity: 0;
-      transition: 200ms ease-in-out;
-      font-size: 60px;
-      margin: 0px;
-      margin-top: -15px;
-    }
-    .two {
-      color: $color-yellow;
-      margin-top: 28px;
-    }
-    .three {
-      color: $color-green;
-      margin-top: 71px;
-    }
-    .four {
-      color: $color-yellow;
-      margin-top: 114px;
-    }
   }
 }
 

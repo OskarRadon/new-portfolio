@@ -21,5 +21,6 @@ SCSS, Jade, probably jQuery
 - ~~Is the mobile front page really broken or is it just Chrome?~~
 - ~~Should the images be square?~~
 - Alt text for everything
+- Hover effect on social media icons
 
 Copyright (c) 2016 **Oskar**
