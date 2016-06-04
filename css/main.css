@@ -374,7 +374,7 @@ html {
   color: #FF4747;
   text-decoration: none; }
 
-.montserrat, .outer h1, .outer .info h2.location, .bg h2 {
+.montserrat, .outer h1, .outer .info h2.location, .bg h2, .container .post h2 {
   font-family: 'Montserrat', 'Helvetica Neue', sans-serif; }
 
 .georgia, .outer .info h2.career {
@@ -519,7 +519,41 @@ body {
         width: 240px;
         height: 240px;
         margin-bottom: 80px; } }
+    .container .post:hover {
+      padding-top: -10px; }
+    @media (min-width: 950px) {
+      .container .post:hover h2.one {
+        animation: appear 200ms ease-in-out; } }
+    @media (min-width: 950px) {
+      .container .post:hover h2.two {
+        animation: appear 300ms ease-in-out; } }
+    @media (min-width: 950px) {
+      .container .post:hover h2.three {
+        animation: appear 400ms ease-in-out; } }
+    @media (min-width: 950px) {
+      .container .post:hover h2.four {
+        animation: appear 500ms ease-in-out; } }
+    .container .post h2 {
+      color: #5AD95A;
+      position: absolute;
+      opacity: 0;
+      transition: 200ms ease-in-out;
+      font-size: 60px;
+      margin: 0px;
+      margin-top: -15px; }
+    .container .post .two {
+      color: #FFEF4F;
+      margin-top: 28px; }
+    .container .post .three {
+      color: #5AD95A;
+      margin-top: 71px; }
+    .container .post .four {
+      color: #FFEF4F;
+      margin-top: 114px; }
 
+@keyframes appear {
+  to {
+    opacity: 1; } }
 #orchard {
   background: url(../img/orchard/main-sm.jpg) left/cover; }
 
