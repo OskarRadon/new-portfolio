@@ -14,12 +14,11 @@ SCSS, Jade, probably jQuery
 - Make the rest of the project pages
 - Finish Scoop page for large screen sizes
 - Make sure images aren't pixelated and crappy at all screen sizes
-- Add link to CV and social media (maybe)
+- ~~Add link to CV and social media (maybe)~~
 - Test for cross-browser compatability
 - Continually test page load time and page size
-- Make mixin for margin-top of titles on main page
+- ~~Make mixin for margin-top of titles on main page~~
 - ~~Is the mobile front page really broken or is it just Chrome?~~
-- Make front page images less pixelated
 - ~~Should the images be square?~~
 - Alt text for everything
 
