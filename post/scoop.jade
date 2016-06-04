@@ -1,98 +1,25 @@
 //output:scoop.html
 
-mixin generateTitles(title) 
-  h2.one #{title}
-  h2.two #{title}
-  
-mixin generateThanks(title) 
-  h2.one #{title}
-  h2.two #{title}
 
 extends ../jade/base.jade
 
 block title
-  title Oskar Radon | Scoop App
+  title Scoop | Oskar Radon
 
-block fonts
-  // Hey be sure to remove all the font weights you don't use in the design!
-  link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700,700italic,600italic|Montserrat:700|Raleway:500" type="text/css")
+block links
+  link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700,700italic,600italic|Montserrat:700" type="text/css")
   link(rel="icon" type="image/png" href="img/alien.png")
-  
-block styles
   link(rel="stylesheet", href="../css/project.css")
-  
+
 block hey
   img.hey(src="../img/hey.png")
 
 block content
+  
   .container
-    .hero
-      +generateTitles("SCOOP APP")
-      .splash#scoop
-    h4 INTRODUCTION
-    p.
-      Scoop is an app for people to stay up to date with the flavors of the month and special deals at their local ice cream stores. I designed this with Brooke Hurford as a part of the Epicodus Design course. An InVision demo of this project can be found #[a(href="https://invis.io/NZ77VPBBT") here].
-      
-    h4 PREPARATION
-    p.
-      Our first step was brainstorming a list of possible features. We felt it was most important for users to be able to quickly and easily see a list of the flavors, how much longer the flavor was available for, and where it was available. Other ideas we had included: a social media aspect of leaving reviews for flavors, gaining badges or rewards for reviews, the average line length for each shop, and recommended flavor combinations. 
-      <br /><br />
-      Then we interviews people around the classroom to get a better understanding of what kind of experience someone would want from our app and what features we should prioritize.
-      <br /><br />
-      The most important data we got from our interview process was that people were largely uninterested in reviewing products, but would be slightly more inclined to do so if there were good rewards for doing so (i.e: free ice cream). We also learned that people mostly had a favorite type of ice cream rather than an exact favorite flavor, that price was unimportant when deciding to get ice cream, and that people had various dietary restrictions which might restrict their choices. 
-      <br /><br />
-      From this information we decided to forgo the review part of the app, and to include an onboarding process that recorded the users favorite flavor, and their dietary restrictions to better tailor the experience to the user. After all our preliminary research was over with we sat down to design the app. 
-      
-    h4 COLORS
-    .color-wrapper
-      .color
-        .circle#paris-pass
-        p.color-desc Paris Pass
-        p.color-desc #D0F5FD
-      .color
-        .circle#paris-daisy
-        p.color-desc Paris Daisy
-        p.color-desc #FFF87A
-      .color
-        .circle#pig-pink
-        p.color-desc Pig Pink
-        p.color-desc #FDD4E7
-      .color
-        .circle#shark
-        p.color-desc Shark
-        p.color-desc #292F36
-    
-    h4 FONTS
-    .font-wrapper
-      .font
-        p.font-name.love-moment Love Moment
-        p.font-desc.love-moment.
-          Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
-      .font
-        p.font-name.raleway Raleway
-        p.font-desc.raleway.
-          Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
-    
-    h4 UI ELEMENTS
-    .ui#scoop
-    p.
-      The overall design is rounded and very simple, the app experience is designed around the idea that a user should quickly be able to see the information they care about, while rewarding exploration with additional important information. The fun and bright colors and rounded icons add to the carefree, exciting feeling. The contrast between heavy and thin typefaces indicate what information is primary and actionable. 
-      
-    h4 FINAL PRODUCT
-    .img1#scoop
-    //- p.desc.
-    //-   The login and sign up process
-    p.
-      The sign in screen is simple, with the sign up button given more priority to hopefully grab new users attentions. The background image emphasizes friendliness and a warm, calming aesthetic that allows the bright vibrant colors to pop out of the page.
-    .img2#scoop
-    p.
-      After signing up the user is taken through a simple onboarding process including a screen to set their preferences, with their favorite flavors and favorite shops based on their location. After a simple tutorial on the features of the app the user is brought to the dashboard.  
-    .img-lg1#scoop
-    p.
-      The dashboard shows all special flavors of the week, sorted by the distance from the user, how many days left before the flavor is no longer available, and how short the line is. A user can tap the heart to favorite a flavor and tap the flavor card to go to the flavor detail screen which includes a description of the flavor, the dietary details, and a map to the particular shop it’s available at.
-    .img-lg2#scoop
-    p.
-      Tapping the heart icon at the top of the screen brings the user to their favorites page which acts as a bookmarking system for the users favorite flavors. The gear icon at the top right of the screen allows the user to go back and edit their preferences. 
-    .outro
-      //- +generateTitles("THANKS FOR WATCHING!")
-      .alien
+    .title
+      h2 Scoop
+      h4
+        span.tag MOBILE
+        span.dot  &#8729;  
+        span.year 2016
