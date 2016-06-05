@@ -42,8 +42,11 @@
     }
   }
   img.proj {
-    width: 200px;
+    width: 180px;
     margin: 40px 0px;
+    @media #{$phone-lg} {
+      width: 250px;
+    }
     @media #{$tablet} {
       width: 400px;
     }
@@ -51,8 +54,11 @@
   .desc {
     @extend .open-sans;
     margin: 0px 0px 80px;
-    line-height: 1.2em;
-    width: 200px;
+    line-height: 1.4em;
+    width: 180px;
+    @media #{$phone-lg} {
+      width: 250px;
+    }
     @media #{$tablet} {
       width: 400px;
     }

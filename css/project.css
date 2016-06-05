@@ -514,15 +514,21 @@ a {
       .container .title h4 .year {
         color: #FF4747; }
   .container img.proj {
-    width: 200px;
+    width: 180px;
     margin: 40px 0px; }
+    @media (min-width: 390px) {
+      .container img.proj {
+        width: 250px; } }
     @media (min-width: 700px) {
       .container img.proj {
         width: 400px; } }
   .container .desc {
     margin: 0px 0px 80px;
-    line-height: 1.2em;
-    width: 200px; }
+    line-height: 1.4em;
+    width: 180px; }
+    @media (min-width: 390px) {
+      .container .desc {
+        width: 250px; } }
     @media (min-width: 700px) {
       .container .desc {
         width: 400px; } }
