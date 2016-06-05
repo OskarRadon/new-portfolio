@@ -1,1 +1,29 @@
 //output:lux.html
+
+extends ../jade/base.jade
+
+block title
+  title Lux | Oskar Radon
+
+block links
+  link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Open+Sans:400|Montserrat:700" type="text/css")
+  link(rel="icon" type="image/png" href="../img/alien.png")
+  link(rel="stylesheet", href="../css/project.css")
+
+block hey
+  img.hey(src="../img/hey.png")
+
+block content
+  
+  .container
+    .title
+      h2 Lux
+      h4
+        span.tag WEB
+        span.dot  &#8729;  
+        span.year 2016
+      a(href="http://oskarradon.github.io/Lux/" title="A link to a live version of the Lux site")
+        img.proj(src="../img/lux/main-sm.jpg" alt="An image of the Lux homepage")
+    p.desc.
+      Lux is a simple portfolio layout I designed and built with Haley Bristol as a part of the CSS course at Epicodus. View the site <a href="http://oskarradon.github.io/Lux/" title="A link to a live version of the Lux site">here</a> and the Github repository <a href="https://github.com/OskarRadon/Lux" title="A link to the GitHub repository for the Lux project">here</a>.
+      
