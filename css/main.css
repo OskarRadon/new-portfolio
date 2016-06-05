@@ -521,7 +521,12 @@ body {
     height: 180px;
     background-size: 50%;
     margin-bottom: 40px;
-    margin-top: -10px; }
+    margin-top: -10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .container .post img {
+      width: 100%; }
     @media (min-width: 390px) {
       .container .post {
         width: 240px;
@@ -542,9 +547,6 @@ body {
 
 #sarah {
   background: url(../img/sarah/main-sm.jpg) center/cover; }
-
-#future {
-  background: url(../img/future/main-sm.jpg) center/cover; }
 
 #scoop {
   background: url(../img/scoop/main-sm.jpg) center/cover; }
