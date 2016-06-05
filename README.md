@@ -10,12 +10,12 @@ SCSS, Jade, ~~probably~~ definitely jQuery
 #### To do:
 - ~~Try out having the whole portfolio thumbnail covered with titles~~
 - ~~Implement script to make titles(and maybe images) fade in on page load~~
-- Try out having outer div slide up on page load (don't go overboard on animations though lol)
-- Make the rest of the project pages
-- Finish Scoop page for large screen sizes
+- ~~Try out having outer div slide up on page load (don't go overboard on animations though lol)~~
+- ~~Make the rest of the project pages~~
+- ~~Finish Scoop page for large screen sizes~~
 - Make sure images aren't pixelated and crappy at all screen sizes
 - ~~Add link to CV and social media (maybe)~~
-- Test for cross-browser compatability
+- Test for cross-browser compatibility
 - Continually test page load time and page size
 - ~~Make mixin for margin-top of titles on main page~~
 - ~~Is the mobile front page really broken or is it just Chrome?~~
