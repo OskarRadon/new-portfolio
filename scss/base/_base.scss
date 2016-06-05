@@ -11,10 +11,11 @@ html {
 }
 
 // BASIC LINK STYLES
-.container {
-  a {
-    color: $color-red;
-    text-decoration: none;
+a {
+  color: $color-red;
+  text-decoration: none;
+  &:hover, &:active {
+    color: $color-green;
   }
 }
 

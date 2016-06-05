@@ -370,9 +370,11 @@ html {
 *, *::before, *::after {
   box-sizing: inherit; }
 
-.container a {
+a {
   color: #FF4747;
   text-decoration: none; }
+  a:hover, a:active {
+    color: #5AD95A; }
 
 .montserrat, .outer h1, .outer .info h2.location, .bg h2 {
   font-family: 'Montserrat', 'Helvetica Neue', sans-serif; }
