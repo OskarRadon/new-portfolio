@@ -25,5 +25,6 @@ SCSS, Jade, ~~probably~~ definitely jQuery
 - ~~Scrolling when hovering on div on main page causes bug~~
 - Maybe no green bg??
 - ~~Add green hover to outer div name on project pages~~
+- Future logo post should really be a transparent png
 
 Copyright (c) 2016 **Oskar**
