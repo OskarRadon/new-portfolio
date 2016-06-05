@@ -416,7 +416,7 @@ a {
       .outer h1.logo-right:hover, .outer h1.logo-right:active {
         color: #5AD95A; }
   .outer .info {
-    position: fixed;
+    position: absolute;
     right: 30px;
     top: 30px; }
     @media (min-width: 700px) {
