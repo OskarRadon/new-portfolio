@@ -22,5 +22,7 @@ SCSS, Jade, ~~probably~~ definitely jQuery
 - ~~Should the images be square?~~
 - Alt text for everything
 - Hover effect on social media icons
+- Scrolling when hovering on div on main page causes bug
+- Maybe no green bg??
 
 Copyright (c) 2016 **Oskar**
