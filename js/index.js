@@ -6,12 +6,15 @@ function randomNum() {
     return Math.floor(Math.random() * (2 + 1));
 }
 
+
 $(function(){
   $('.post').hover(function() {
+    var viewport = $(window).width();
     var id = this.id;
-    $('body').css({ background: colors[randomNum()] });
-    $('#' + id + '-bg').show();
-
+    if (viewport >= 800) {
+      $('body').css({ background: colors[randomNum()] });
+      $('#' + id + '-bg').show();
+    }
   }, function() {
     var id = this.id;
     $('body').css({ background: "white" });
