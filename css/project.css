@@ -477,7 +477,10 @@ html {
         bottom: 45px; } }
 
 .container {
-  margin: 130px auto 0; }
+  margin: 130px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
   @media (min-width: 700px) {
     .container {
       margin-top: 200px; } }
@@ -505,5 +508,12 @@ html {
         color: #5AD95A; }
       .container .title h4 .year {
         color: #FF4747; }
+  .container img.main {
+    width: 200px;
+    margin: 40px 0px; }
+  .container .desc {
+    margin: 0px 0px 80px;
+    line-height: 1.2em;
+    width: 200px; }
 
 /*# sourceMappingURL=project.css.map */
