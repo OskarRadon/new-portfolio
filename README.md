@@ -24,5 +24,6 @@ SCSS, Jade, ~~probably~~ definitely jQuery
 - Hover effect on social media icons
 - ~~Scrolling when hovering on div on main page causes bug~~
 - Maybe no green bg??
+- Add green hover to outer div name on project pages
 
 Copyright (c) 2016 **Oskar**
