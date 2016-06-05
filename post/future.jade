@@ -1,1 +1,27 @@
 //output:future.html
+
+extends ../jade/base.jade
+
+block title
+  title Future Logos | Oskar Radon
+
+block links
+  link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Open+Sans:400|Montserrat:700" type="text/css")
+  link(rel="icon" type="image/png" href="../img/alien.png")
+  link(rel="stylesheet", href="../css/project.css")
+
+block hey
+  img.hey(src="../img/hey.png")
+
+block content
+  
+  .container
+    .title
+      h2 Future Logos
+      h4
+        span.tag DESIGN
+        span.dot  &#8729;  
+        span.year 2016
+    img.main(src="../img/mosk/mosk.png" alt="An image of the homepage of the MoSK application")
+    p.desc.
+      
