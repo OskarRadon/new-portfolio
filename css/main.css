@@ -510,12 +510,18 @@ body {
   width: 100%;
   height: 100%;
   margin: 200px auto 0; }
+  @media (min-width: 700px) {
+    .container {
+      margin-top: 250px; } }
   @media (min-width: 850px) {
     .container {
       width: 560px;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-between; } }
+  @media (min-width: 950px) {
+    .container {
+      margin-top: 200px; } }
   .container .post {
     width: 180px;
     height: 180px;
