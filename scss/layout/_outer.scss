@@ -17,6 +17,9 @@
         left: -60px;
         top: 155px;
       }
+      &:hover, &:active {
+        color: $color-green;
+      }
     }
     &.logo-right {
       color: $color-red;
@@ -25,6 +28,9 @@
       @media #{$tablet} {
         right: -70px;
         bottom: 155px;
+      }
+      &:hover, &:active {
+        color: $color-green;
       }
     }
   }

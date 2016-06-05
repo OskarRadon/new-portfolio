@@ -403,6 +403,8 @@ a {
         .outer h1.logo-left {
           left: -60px;
           top: 155px; } }
+      .outer h1.logo-left:hover, .outer h1.logo-left:active {
+        color: #5AD95A; }
     .outer h1.logo-right {
       color: #FF4747;
       right: -20px;
@@ -411,6 +413,8 @@ a {
         .outer h1.logo-right {
           right: -70px;
           bottom: 155px; } }
+      .outer h1.logo-right:hover, .outer h1.logo-right:active {
+        color: #5AD95A; }
   .outer .info {
     position: fixed;
     right: 30px;
