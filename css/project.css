@@ -496,7 +496,8 @@ a {
     .container .title h2 {
       color: #7AD1D1;
       font-size: 2em;
-      margin: 0px; }
+      margin: 0px;
+      padding: 0px 50px; }
       @media (min-width: 700px) {
         .container .title h2 {
           font-size: 3em; } }
