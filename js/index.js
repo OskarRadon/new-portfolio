@@ -20,4 +20,5 @@ $(function(){
     $('body').css({ background: "white" });
     $('#' + id + '-bg').hide();
   });
+
 });

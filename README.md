@@ -26,5 +26,6 @@ SCSS, Jade, ~~probably~~ definitely jQuery
 - Maybe no green bg??
 - ~~Add green hover to outer div name on project pages~~
 - ~~Future logo post should really be a transparent png~~
+- Compensate for scrollbar for right hand side name and description
 
 Copyright (c) 2016 **Oskar**
